@@ -303,12 +303,7 @@
                     <li class="page-scroll" style="">
                         <a href="../contact_us" data-i18n="nav.contact"></a>
                     </li>
-                    <li class="page-scroll primary-locale" style="">
-                        <a id="fr-CA-mobile" href="#" data-i18n="nav.locale.french"></a>
-                    </li>
-                    <li class="page-scroll secondary-locale" style="">
-                        <a id="en-CA-mobile" href="#" data-i18n="nav.locale.english"></a>
-                    </li>
+                    
                     <li class="page-scroll" style="">
                         <a href="https://www.facebook.com/placevertu" target="_blank"><img class="image" style="width:40px" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/social_fb.png" ></a>
                     </li>
