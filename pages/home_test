@@ -118,6 +118,7 @@
             
             
                  var repoList = getRepoList();
+                 console.log(repoList);
                  renderIndicator('#indicator_template','#banner_indicator', repoList);
                 renderBanner('#banner_template','#home_banner',repoList);
         }
