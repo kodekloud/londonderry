@@ -10,7 +10,7 @@
 <div class="home">
         <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
           <!-- Indicators -->
-            <ol class="carousel-indicators" id="banner_indicator" style="{{show}}">
+            <ol class="carousel-indicators" id="banner_indicator" style="{{show_style}}">
                 <script id="indicator_template" type="x-tmpl-mustache">
                     <li data-slide-to="{{slide_number}}" data-target="#carousel-example-generic" class="{{active_carousel}}"></li>                        
                 </script>
@@ -210,7 +210,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
        
         if(item_list.length == 1){
             
-            val.show = "display:none;";
+            val.show_style = "display:none;";
          }
            
         if (bannerCount == 0){
