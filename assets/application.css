@@ -201,7 +201,9 @@ img{
     
     
 }
-
+.carousel{
+    background-color:white;
+}
 .social-link{
     margin-top:20px;
 }
