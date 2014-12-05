@@ -224,7 +224,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
     });
     
 
-    $(home_indicator).show();
+   // $(home_indicator).show();
     $(home_indicator).html(item_rendered.join(''));
 }
 </script>
