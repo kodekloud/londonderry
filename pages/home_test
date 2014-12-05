@@ -207,11 +207,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
         return 0;
     });
     $.each( item_list , function( key, val ) {
-       
-        if(item_list.length == 1){
-            
-            val.show_style = "display:none;";
-         }
+      
            
         if (bannerCount == 0){
             val.active_carousel = "active";
@@ -223,8 +219,11 @@ function renderIndicator(indicator_template, home_indicator, repo){
          bannerCount ++;
     });
     
-
-   // $(home_indicator).show();
+    if(item_list.length =< 1){
+        $(home_indicator).hide();
+    } else {
+         $(home_indicator).show();
+    }
     $(home_indicator).html(item_rendered.join(''));
 }
 </script>
