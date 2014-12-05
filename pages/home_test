@@ -195,7 +195,6 @@ function renderIndicator(indicator_template, home_indicator, repo){
     var bannerCount = 0;
     
     $.each( repo , function( key, val ) {
-        console.log(val.name);
         if( val.name == "banner"){
             $.each( val.images , function( key, val ) {
                 item_list.push(val);
