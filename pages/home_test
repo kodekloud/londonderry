@@ -8,10 +8,6 @@
     
 </style>
 <div class="home">
-
-
-  
-  
         <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
           <!-- Indicators -->
             <ol class="carousel-indicators" id="banner_indicator">
@@ -41,8 +37,6 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
         </div>
-
-
 
 
     <div class="container">
