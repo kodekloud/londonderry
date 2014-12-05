@@ -10,7 +10,7 @@
 <div class="home">
         <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
           <!-- Indicators -->
-            <ol class="carousel-indicators" id="banner_indicator">
+            <ol class="carousel-indicators" id="banner_indicator" style="{{show}}">
                 <script id="indicator_template" type="x-tmpl-mustache">
                     <li data-slide-to="{{slide_number}}" data-target="#carousel-example-generic" class="{{active_carousel}}"></li>                        
                 </script>
@@ -208,19 +208,21 @@ function renderIndicator(indicator_template, home_indicator, repo){
         return 0;
     });
     $.each( item_list , function( key, val ) {
+        if(item_list.length == 1){
+            val.show = "display:none;";
+         }
            
-           
-            if (bannerCount == 0){
-                val.active_carousel = "active";
-            }
-            val.slide_number = bannerCount;
-             console.log( val.slide_number);
-            var repo_rendered = Mustache.render(banner_template_html,val);
-            item_rendered.push(repo_rendered);
-             bannerCount ++;
+        if (bannerCount == 0){
+            val.active_carousel = "active";
+        }
+        val.slide_number = bannerCount;
+
+        var repo_rendered = Mustache.render(banner_template_html,val);
+        item_rendered.push(repo_rendered);
+         bannerCount ++;
     });
     
-   
+
     $(home_indicator).show();
     $(home_indicator).html(item_rendered.join(''));
 }
