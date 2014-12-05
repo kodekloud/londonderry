@@ -219,7 +219,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
          bannerCount ++;
     });
     
-    if(item_list.length =< 1){
+    if(item_list.length <= 1){
         $(home_indicator).hide();
     } else {
          $(home_indicator).show();
