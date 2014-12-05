@@ -93,7 +93,9 @@
     margin:10px;
     padding-left:10px;
 }
-
+.flexslider{
+    border:none;
+}
 body{
     font-family:'pf_dindisplay_prolight';
 }
