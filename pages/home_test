@@ -29,6 +29,7 @@
                 </script>
             </div>
             
+            <div id="controls">
               <!-- Controls -->
               <a data-slide="prev" role="button" href="#carousel-example-generic" class="left carousel-control">
                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -36,6 +37,7 @@
               <a data-slide="next" role="button" href="#carousel-example-generic" class="right carousel-control">
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
+              </div>
         </div>
 
 
