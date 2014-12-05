@@ -6,6 +6,9 @@
     .navbar{
         margin-bottom:0px;
     }
+    .flexslider{
+        margin-bottom:0px;
+    }
 </style>
 <div class="home">
 
