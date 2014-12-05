@@ -223,6 +223,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
     
     if(item_list.length <= 1){
         $(home_indicator).hide();
+        $('#controls').hide();
     } else {
          $(home_indicator).show();
     }
