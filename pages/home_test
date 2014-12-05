@@ -145,7 +145,7 @@
     });
     
     
-     function renderBanner(banner_template, home_banner, repo){
+function renderBanner(banner_template, home_banner, repo){
     
     var item_list = [];
     var item_rendered = [];
@@ -181,7 +181,7 @@
     $('.item').first().addClass('active');
 }
     
-       function renderIndicator(indicator_template, home_indicator, repo){
+function renderIndicator(indicator_template, home_indicator, repo){
     
     var item_list = [];
     var item_rendered = [];
@@ -201,6 +201,7 @@
         if(a.name > b.name) return 1;
         return 0;
     });
+    console.log(item_list);
     $.each( item_list , function( key, val ) {
            
            
