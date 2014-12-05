@@ -1,5 +1,39 @@
 <div class="home">
-    <img class="banner" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/4161e3dd2fe184cd7c763942e8868c0b/updated.png">
+
+  
+        <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+          <!-- Indicators -->
+            <ol class="carousel-indicators" id="banner_indicator">
+                <script id="indicator_template" type="x-tmpl-mustache">
+                    <li data-slide-to="{{slide_number}}" data-target="#carousel-example-generic" class="{{active_carousel}}"></li>                        
+                </script>
+            </ol>
+            
+              <!-- Wrapper for slides -->
+            <div class="carousel-inner" id="home_banner">
+            
+                <script id="banner_template" type="x-tmpl-mustache">
+               <div class="item">
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                      <img alt="..." src="{{photo_url_abs}}">
+                      </a>
+                </div>
+            
+                </script>
+            </div>
+            
+              <!-- Controls -->
+              <a data-slide="prev" role="button" href="#carousel-example-generic" class="left carousel-control">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a data-slide="next" role="button" href="#carousel-example-generic" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+        </div>
+
+
+
+
     <div class="container">
         <div class="row feature-items">
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
@@ -81,6 +115,11 @@
             renderTodaysHours('#todays_hours_template','#todays-hours');
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
+            
+            
+                 var repoList = getRepoList();
+                 renderIndicator('#indicator_template','#banner_indicator', repoList);
+                renderBanner('#banner_template','#home_banner',repoList);
         }
         loadMallData(renderPageData);
         
@@ -104,4 +143,79 @@
            });
        });
     });
+    
+    
+     function renderBanner(banner_template, home_banner, repo){
+    
+    var item_list = [];
+    var item_rendered = [];
+    var banner_template_html = $(banner_template).html();
+    Mustache.parse(banner_template_html);   // optional, speeds up future uses
+
+    $.each( repo , function( key, val ) {
+        if( val.name == "banner"){
+            $.each( val.images , function( key, val ) {
+               if(val.url == ""){
+                   val.css = "style=cursor:default;";
+                   val.noLink = "return false";
+               }
+                item_list.push(val);
+               
+            });
+        }
+    });
+    item_list.sort(function(a, b){
+        if(a.name < b.name) return -1;
+        if(a.name > b.name) return 1;
+        return 0;
+    });
+    $.each( item_list , function( key, val ) {
+            var repo_rendered = Mustache.render(banner_template_html,val);
+            item_rendered.push(repo_rendered);
+           
+    });
+    
+   
+    $(home_banner).show();
+    $(home_banner).html(item_rendered.join(''));
+    $('.item').first().addClass('active');
+}
+    
+       function renderIndicator(indicator_template, home_indicator, repo){
+    
+    var item_list = [];
+    var item_rendered = [];
+    var banner_template_html = $(indicator_template).html();
+    Mustache.parse(banner_template_html);   // optional, speeds up future uses
+    var bannerCount = 0;
+    
+    $.each( repo , function( key, val ) {
+        if( val.name == "banner"){
+            $.each( val.images , function( key, val ) {
+                item_list.push(val);
+            });
+        }
+    });
+    item_list.sort(function(a, b){
+        if(a.name < b.name) return -1;
+        if(a.name > b.name) return 1;
+        return 0;
+    });
+    $.each( item_list , function( key, val ) {
+           
+           
+            if (bannerCount == 0){
+                val.active_carousel = "active";
+            }
+            val.slide_number = bannerCount;
+             console.log( val.slide_number);
+            var repo_rendered = Mustache.render(banner_template_html,val);
+            item_rendered.push(repo_rendered);
+             bannerCount ++;
+    });
+    
+   
+    $(home_indicator).show();
+    $(home_indicator).html(item_rendered.join(''));
+}
 </script>
