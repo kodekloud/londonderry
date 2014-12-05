@@ -208,7 +208,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
         return 0;
     });
     $.each( item_list , function( key, val ) {
-        console.log(item_list.length);
+       
         if(item_list.length == 1){
             
             val.show = "display:none;";
@@ -218,7 +218,7 @@ function renderIndicator(indicator_template, home_indicator, repo){
             val.active_carousel = "active";
         }
         val.slide_number = bannerCount;
-
+         console.log(val.show);
         var repo_rendered = Mustache.render(banner_template_html,val);
         item_rendered.push(repo_rendered);
          bannerCount ++;
