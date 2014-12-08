@@ -30,7 +30,7 @@
                 alwaysBlank: true,
                 toolbarFixed: true,
                 imageMove: true,
-                saveURL: '../save_content_block',
+                saveURL: '/web_pages/save_content_block',
                 saveRequestType: 'POST',
 	            saveParams: {name:'How to get here', id: '54860ca16e6f640be9000000',web_page_id: '54612c4a6e6f6474ba350000',authenticity_token: '<%=form_authenticity_token%>'},
 	            autosave: false,
