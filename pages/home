@@ -110,11 +110,6 @@
 </div>
 
 <script>
-
-
-    
-    
-        
     $(document).ready(function() {
         function renderPageData(){
             //console.log('rendering page data');
