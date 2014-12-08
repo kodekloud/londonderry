@@ -5,11 +5,11 @@
             
             <!--GIFT CARDS-->
             <a name="gift_cards"></a>
-            <h2 data-i18n="nav.subnav.gift_cards"><!--GIFT CARDS-->&nbsp;</h2>
+            <h2 >Information</h2>
             <div class="primary-locale">
                 <!-- Gift Cards (English) CONTENT BLOCK START-->    
                 <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_54470f7f6e6f646765000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_54470f7f6e6f646765000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+                  <a href="#" style="font-sige:20px;display:none" id="content_block_54470f7f6e6f646765000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_54470f7f6e6f646765000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
                   <div id='edit_54470f7f6e6f646765000000'>
                 	  <%=content_block_54470f7f6e6f646765000000%>
                   </div>
@@ -26,7 +26,7 @@
                                 imageMove: true,
                                 saveURL: '../save_content_block',
                                 saveRequestType: 'POST',
-                	            saveParams: {name:'Gift Cards (English)', id: '54470f7f6e6f646765000000',web_page_id: '5431987c6e6f64102a160000',authenticity_token: '<%=form_authenticity_token%>'},
+                	            saveParams: {name:'Information (English)', id: '54470f7f6e6f646765000000',web_page_id: '5431987c6e6f64102a160000',authenticity_token: '<%=form_authenticity_token%>'},
                 	            autosave: false,
                 				minHeight: 400,
                 				imageUploadToS3: {
