@@ -218,78 +218,78 @@
             
             <!--GREEN INITIATIVES-->
             <a name="green_initiatives"></a>
-            <h2 data-i18n="nav.subnav.green_initiatives"><!--GREEN INITIATIVES--></h2>
+            <h2>GREEN INITIATIVES</h2>
             <div class="primary-locale">
-                <!-- Green Initiatives (English) CONTENT BLOCK START-->    
-                <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_5446fa9c6e6f64600f030000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5446fa9c6e6f64600f030000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                  <div id='edit_5446fa9c6e6f64600f030000'>
-                	  <%=content_block_5446fa9c6e6f64600f030000%>
-                  </div>
-                  <script>
-                      $(function(){
-                		if (typeof $('#edit_5446fa9c6e6f64600f030000').editable != 'undefined') {
-                			$('#content_block_5446fa9c6e6f64600f030000').show();
-                	        $('#edit_5446fa9c6e6f64600f030000').editable({
-                				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-                				inlineMode: false,
-                                paragraphy: true,
-                                alwaysBlank: true,
-                                toolbarFixed: true,
-                                imageMove: true,
-                                saveURL: '../save_content_block',
-                                saveRequestType: 'POST',
-                	            saveParams: {name:'Green Initiatives (English)', id: '5446fa9c6e6f64600f030000',web_page_id: '5431987c6e6f64102a130000',authenticity_token: '<%=form_authenticity_token%>'},
-                	            autosave: false,
-                				minHeight: 200,
-                				imageUploadToS3: {
-                                    bucket: 'kodekloud',
-                                    region: 's3',
-                                    keyStart: 'site/5431987c6e6f64102a020000/7d8d250b0748c6887121b2a5e0d096df/${filename}',
-                					callback: function (url, key) {
-                                      $.ajax({
-                                            url : "../add_upload_from_content_block",
-                                            type: "POST",
-                                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                                            success: function(data, textStatus, jqXHR)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            },
-                                            error: function (jqXHR, textStatus, errorThrown)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            }
-                                        });
-                                    },
-                                    params: {
-                					  utf8: '&#x2713;',
-                                      acl: 'public-read', // ACL according to Amazon Documentation.
-                                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNVQwMDozMDoyMC41MDFaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                                      signature: 'F/xjAHMKeAtxB41OjmDQiOBD7Jg=', // Signature computed in the backend.
-                                    }
-                                }
-                            
-                	        })
-                		}
-                		$('#status_5446fa9c6e6f64600f030000').hide();
-                        
-                        $('#content_block_5446fa9c6e6f64600f030000').click(function(event){
-                            event.preventDefault();
-                            $('#edit_5446fa9c6e6f64600f030000').editable("save");
+                <!-- GREEN INITIATIVES CONTENT BLOCK START-->    
+<section id="editor" class="froala-element">
+  <a href="#" style="font-size:20px;display:none" id="content_block_548615cb6e6f644505020000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_548615cb6e6f644505020000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_548615cb6e6f644505020000'>
+	  <%=content_block_548615cb6e6f644505020000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_548615cb6e6f644505020000').editable != 'undefined') {
+			$('#content_block_548615cb6e6f644505020000').show();
+	        $('#edit_548615cb6e6f644505020000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '/web_pages/save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'GREEN INITIATIVES', id: '548615cb6e6f644505020000',web_page_id: '54612c4a6e6f6474ba1e0000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/54612c496e6f6474ba020000/5e1891f9f7a1bcc8b3e2051a674772e1/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
                         });
-                      });
-                  </script>
-                </section>    
-                <!-- Green Initiatives (English) CONTENT BLOCK END -->
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOS0yMVQyMToxOTowNy4zMjFaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'k5wjeAmqjlGKiaxaY4h0MPKjn1c=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_548615cb6e6f644505020000').hide();
+        
+        $('#content_block_548615cb6e6f644505020000').click(function(event){
+            event.preventDefault();
+            $('#edit_548615cb6e6f644505020000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- GREEN INITIATIVES CONTENT BLOCK END -->
             </div>
            
             
             <!--CONTRACT POLICY-->
             <a name="contract_policy"></a>
-            <h2 data-i18n="nav.subnav.contract_policy"><!--CONTRACT POLICY--></h2>
+            <h2>CONTRACT POLICY</h2>
             <div class="primary-locale">
                 <!-- Contract Policy (English) CONTENT BLOCK START-->    
                 <section id="editor" class="froala-element">
