@@ -277,7 +277,7 @@
             
             <!--FITNESS WALKING CLUB-->
             <a name="fitness_walking_club" ></a>
-            <h2 data-i18n="nav.subnav.fitness_walking_club"><!--FITNESS WALKING CLUB--></h2>
+            <h2></h2>SECURITY</h2>
             <div class="primary-locale">
                 <!-- Walking Club (English) CONTENT BLOCK START-->    
                 <section id="editor" class="froala-element">
