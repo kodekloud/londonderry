@@ -10,7 +10,7 @@
             <%=/centre_address_map%>
             </div>
             <a name="how_to_get_here"></a>
-            <h2 data-i18n="nav.subnav.how_to_get_here"><!--HOW TO GET HERE-->&nbsp;</h2>
+            <h2>How to get here</h2>
             <div class="primary-locale">
         <!-- how to get here CONTENT BLOCK START-->    
             <!-- How to get here CONTENT BLOCK START-->    
