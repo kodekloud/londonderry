@@ -221,72 +221,7 @@
                 </section>    
                 <!-- Store Hours (English) CONTENT BLOCK END -->
             </div>
-            <div class="secondary-locale">
-                <!-- Store Hours (French) CONTENT BLOCK START-->    
-                <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_544719586e6f6404db030000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_544719586e6f6404db030000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                  <div id='edit_544719586e6f6404db030000'>
-                	  <%=content_block_544719586e6f6404db030000%>
-                  </div>
-                  <script>
-                      $(function(){
-                		if (typeof $('#edit_544719586e6f6404db030000').editable != 'undefined') {
-                			$('#content_block_544719586e6f6404db030000').show();
-                	        $('#edit_544719586e6f6404db030000').editable({
-                				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-                				inlineMode: false,
-                                paragraphy: true,
-                                alwaysBlank: true,
-                                toolbarFixed: true,
-                                imageMove: true,
-                                saveURL: '../save_content_block',
-                                saveRequestType: 'POST',
-                	            saveParams: {name:'Store Hours (French)', id: '544719586e6f6404db030000',web_page_id: '5431987c6e6f64102a170000',authenticity_token: '<%=form_authenticity_token%>'},
-                	            autosave: false,
-                				minHeight: 200,
-                				imageUploadToS3: {
-                                    bucket: 'kodekloud',
-                                    region: 's3',
-                                    keyStart: 'site/5431987c6e6f64102a020000/d47fbf07dbcf9f5e8b391f4645da6abf/${filename}',
-                					callback: function (url, key) {
-                                      $.ajax({
-                                            url : "../add_upload_from_content_block",
-                                            type: "POST",
-                                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                                            success: function(data, textStatus, jqXHR)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            },
-                                            error: function (jqXHR, textStatus, errorThrown)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            }
-                                        });
-                                    },
-                                    params: {
-                					  utf8: '&#x2713;',
-                                      acl: 'public-read', // ACL according to Amazon Documentation.
-                                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNVQwMjo0MToyOC41NDZaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                                      signature: 'aUdYLy92mALORS5nrfvaeJ7ZXKo=', // Signature computed in the backend.
-                                    }
-                                }
-                            
-                	        })
-                		}
-                		$('#status_544719586e6f6404db030000').hide();
-                        
-                        $('#content_block_544719586e6f6404db030000').click(function(event){
-                            event.preventDefault();
-                            $('#edit_544719586e6f6404db030000').editable("save");
-                        });
-                      });
-                  </script>
-                </section>    
-                <!-- Store Hours (French) CONTENT BLOCK END -->
-            </div>
+         
             
             <!--ADMINISTRATION HOURS-->
             <a name="administration_hours"></a>
@@ -357,76 +292,11 @@
                 </section>    
                 <!-- Administration Hours (English) CONTENT BLOCK END -->
             </div>
-            <div class="secondary-locale">
-                <!-- Administration Hours (French) CONTENT BLOCK START-->    
-                <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_544718166e6f643ab8010000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_544718166e6f643ab8010000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                  <div id='edit_544718166e6f643ab8010000'>
-                	  <%=content_block_544718166e6f643ab8010000%>
-                  </div>
-                  <script>
-                      $(function(){
-                		if (typeof $('#edit_544718166e6f643ab8010000').editable != 'undefined') {
-                			$('#content_block_544718166e6f643ab8010000').show();
-                	        $('#edit_544718166e6f643ab8010000').editable({
-                				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-                				inlineMode: false,
-                                paragraphy: true,
-                                alwaysBlank: true,
-                                toolbarFixed: true,
-                                imageMove: true,
-                                saveURL: '../save_content_block',
-                                saveRequestType: 'POST',
-                	            saveParams: {name:'Administration Hours (French)', id: '544718166e6f643ab8010000',web_page_id: '5431987c6e6f64102a170000',authenticity_token: '<%=form_authenticity_token%>'},
-                	            autosave: false,
-                				minHeight: 200,
-                				imageUploadToS3: {
-                                    bucket: 'kodekloud',
-                                    region: 's3',
-                                    keyStart: 'site/5431987c6e6f64102a020000/92bc43b617775e13c1f45c92163840ad/${filename}',
-                					callback: function (url, key) {
-                                      $.ajax({
-                                            url : "../add_upload_from_content_block",
-                                            type: "POST",
-                                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                                            success: function(data, textStatus, jqXHR)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            },
-                                            error: function (jqXHR, textStatus, errorThrown)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            }
-                                        });
-                                    },
-                                    params: {
-                					  utf8: '&#x2713;',
-                                      acl: 'public-read', // ACL according to Amazon Documentation.
-                                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNVQwMjozNjowNi44NzNaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                                      signature: 'QxiHtPvLCi3+m4kcMYcrBnceK5M=', // Signature computed in the backend.
-                                    }
-                                }
-                            
-                	        })
-                		}
-                		$('#status_544718166e6f643ab8010000').hide();
-                        
-                        $('#content_block_544718166e6f643ab8010000').click(function(event){
-                            event.preventDefault();
-                            $('#edit_544718166e6f643ab8010000').editable("save");
-                        });
-                      });
-                  </script>
-                </section>    
-                <!-- Administration Hours (French) CONTENT BLOCK END -->
-            </div>
+           
             
             <!--ACCESSIBILITY-->
             <a name="accessibility"></a>
-            <h2 data-i18n="nav.subnav.accessibility"><!--ACCESSIBILITY--></h2>
+            <h2>ACCESSIBILITY</h2>
             <div class="primary-locale">
                 <!-- Accessibility (English) CONTENT BLOCK START-->    
                 <section id="editor" class="froala-element">
@@ -493,72 +363,7 @@
                 </section>    
                 <!-- Accessibility (English) CONTENT BLOCK END -->
             </div>
-            <div class="secondary-locale">
-                <!-- Accessibility (French) CONTENT BLOCK START-->    
-                <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_544718496e6f643ab8020000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_544718496e6f643ab8020000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                  <div id='edit_544718496e6f643ab8020000'>
-                	  <%=content_block_544718496e6f643ab8020000%>
-                  </div>
-                  <script>
-                      $(function(){
-                		if (typeof $('#edit_544718496e6f643ab8020000').editable != 'undefined') {
-                			$('#content_block_544718496e6f643ab8020000').show();
-                	        $('#edit_544718496e6f643ab8020000').editable({
-                				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-                				inlineMode: false,
-                                paragraphy: true,
-                                alwaysBlank: true,
-                                toolbarFixed: true,
-                                imageMove: true,
-                                saveURL: '../save_content_block',
-                                saveRequestType: 'POST',
-                	            saveParams: {name:'Accessibility (French)', id: '544718496e6f643ab8020000',web_page_id: '5431987c6e6f64102a170000',authenticity_token: '<%=form_authenticity_token%>'},
-                	            autosave: false,
-                				minHeight: 200,
-                				imageUploadToS3: {
-                                    bucket: 'kodekloud',
-                                    region: 's3',
-                                    keyStart: 'site/5431987c6e6f64102a020000/111e974932d4befbc427b163bf97671c/${filename}',
-                					callback: function (url, key) {
-                                      $.ajax({
-                                            url : "../add_upload_from_content_block",
-                                            type: "POST",
-                                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                                            success: function(data, textStatus, jqXHR)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            },
-                                            error: function (jqXHR, textStatus, errorThrown)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            }
-                                        });
-                                    },
-                                    params: {
-                					  utf8: '&#x2713;',
-                                      acl: 'public-read', // ACL according to Amazon Documentation.
-                                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNVQwMjozNjo1Ny43OTZaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                                      signature: 'emsne9xsgYSztTv1WqT/w7KrE1A=', // Signature computed in the backend.
-                                    }
-                                }
-                            
-                	        })
-                		}
-                		$('#status_544718496e6f643ab8020000').hide();
-                        
-                        $('#content_block_544718496e6f643ab8020000').click(function(event){
-                            event.preventDefault();
-                            $('#edit_544718496e6f643ab8020000').editable("save");
-                        });
-                      });
-                  </script>
-                </section>    
-                <!-- Accessibility (French) CONTENT BLOCK END -->
-            </div>
+          
         </div>
         
         <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
