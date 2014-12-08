@@ -291,70 +291,70 @@
             <a name="contract_policy"></a>
             <h2>CONTRACT POLICY</h2>
             <div class="primary-locale">
-                <!-- Contract Policy (English) CONTENT BLOCK START-->    
-                <section id="editor" class="froala-element">
-                  <a href="#" style="font-size:20px;display:none" id="content_block_5446faea6e6f64174d020000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5446faea6e6f64174d020000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                  <div id='edit_5446faea6e6f64174d020000'>
-                	  <%=content_block_5446faea6e6f64174d020000%>
-                  </div>
-                  <script>
-                      $(function(){
-                		if (typeof $('#edit_5446faea6e6f64174d020000').editable != 'undefined') {
-                			$('#content_block_5446faea6e6f64174d020000').show();
-                	        $('#edit_5446faea6e6f64174d020000').editable({
-                				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-                				inlineMode: false,
-                                paragraphy: true,
-                                alwaysBlank: true,
-                                toolbarFixed: true,
-                                imageMove: true,
-                                saveURL: '../save_content_block',
-                                saveRequestType: 'POST',
-                	            saveParams: {name:'Contract Policy (English)', id: '5446faea6e6f64174d020000',web_page_id: '5431987c6e6f64102a130000',authenticity_token: '<%=form_authenticity_token%>'},
-                	            autosave: false,
-                				minHeight: 200,
-                				imageUploadToS3: {
-                                    bucket: 'kodekloud',
-                                    region: 's3',
-                                    keyStart: 'site/5431987c6e6f64102a020000/24be4ba47a203bd40510a0998a1c3509/${filename}',
-                					callback: function (url, key) {
-                                      $.ajax({
-                                            url : "../add_upload_from_content_block",
-                                            type: "POST",
-                                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                                            success: function(data, textStatus, jqXHR)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            },
-                                            error: function (jqXHR, textStatus, errorThrown)
-                                            {
-                                                console.log('saved image to uploads');
-                                                console.log(textStatus);
-                                            }
-                                        });
-                                    },
-                                    params: {
-                					  utf8: '&#x2713;',
-                                      acl: 'public-read', // ACL according to Amazon Documentation.
-                                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNVQwMDozMTozOC40NDNaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                                      signature: 'saoTFQ2qx/r1tJopkCNPZg2o96A=', // Signature computed in the backend.
-                                    }
-                                }
-                            
-                	        })
-                		}
-                		$('#status_5446faea6e6f64174d020000').hide();
-                        
-                        $('#content_block_5446faea6e6f64174d020000').click(function(event){
-                            event.preventDefault();
-                            $('#edit_5446faea6e6f64174d020000').editable("save");
+    <!-- Contract Policy CONTENT BLOCK START-->    
+<section id="editor" class="froala-element">
+  <a href="#" style="font-size:20px;display:none" id="content_block_548615e26e6f6478a0010000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_548615e26e6f6478a0010000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_548615e26e6f6478a0010000'>
+	  <%=content_block_548615e26e6f6478a0010000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_548615e26e6f6478a0010000').editable != 'undefined') {
+			$('#content_block_548615e26e6f6478a0010000').show();
+	        $('#edit_548615e26e6f6478a0010000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '/web_pages/save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'Contract Policy', id: '548615e26e6f6478a0010000',web_page_id: '54612c4a6e6f6474ba1e0000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/54612c496e6f6474ba020000/85de0ea3bedabb196cbe52c2b00da5b8/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
                         });
-                      });
-                  </script>
-                </section>    
-                <!-- Contract Policy (English) CONTENT BLOCK END -->
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOS0yMVQyMToxOTozMC43MzNaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'nUIWFDsIc1urr+LlP8V+WiGRe0E=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_548615e26e6f6478a0010000').hide();
+        
+        $('#content_block_548615e26e6f6478a0010000').click(function(event){
+            event.preventDefault();
+            $('#edit_548615e26e6f6478a0010000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- Contract Policy CONTENT BLOCK END -->
             </div>
             
 
