@@ -5,7 +5,7 @@
             
             <!--PARKING INFORMATION-->
             <a name="place_vertu"></a>
-            <h2>Londonderry</h2>
+            <h2>Leasing</h2>
             <div class="primary-locale">
 <!-- About CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
@@ -74,9 +74,9 @@
             </div>
          
             
-            <!--LEASING INFORMATION-->
+            <!--Mall Info-->
             <a name="leasing_information"></a>
-            <h2>LEASING INFORMATION</h2>
+            <h2>Mall Info</h2>
             <div class="primary-locale">
             <!-- Leasing CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
@@ -145,9 +145,9 @@
             </div>
            
             
-            <!--CHARITIES-->
+            <!--Accessibility-->
             <a name="charities"></a>
-            <h2>CHARITIES</h2>
+            <h2>Accessibility</h2>
             <div class="primary-locale">
                 <!-- Charities CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
@@ -216,9 +216,9 @@
             </div>
            
             
-            <!--GREEN INITIATIVES-->
+            <!--Community/Wi-Fi-->
             <a name="green_initiatives"></a>
-            <h2>GREEN INITIATIVES</h2>
+            <h2>Community/Wi-Fi</h2>
             <div class="primary-locale">
                 <!-- GREEN INITIATIVES CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
@@ -287,9 +287,9 @@
             </div>
            
             
-            <!--CONTRACT POLICY-->
+            <!--CONTACT US-->
             <a name="contract_policy"></a>
-            <h2>CONTRACT POLICY</h2>
+            <h2>CONTACT US</h2>
             <div class="primary-locale">
     <!-- Contract Policy CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
