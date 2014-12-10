@@ -479,6 +479,11 @@ footer .nav>li>a{
     text-align:center;
 }
 
+.feature-item .header{
+     text-transform: uppercase;
+     font-weight:bold;
+}
+
 .feature-item a{
     width:100%;
     margin-top:30px;
