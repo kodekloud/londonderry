@@ -99,7 +99,7 @@
                           <input type="checkbox" class="info_check" id="agree_terms" style="width:15px"/>&nbsp;I agree to receive emails from Londonderry
                         </span>
                       </div>
-                        <button class="btn btn-default"  data-i18n="general.submit"></button>
+                        <button class="btn btn-default feature-item-button"  data-i18n="general.submit"></button>
                        <br />
                        <span id="success_subscribe" style="font-size:20px;padding:10px">Thank You!</span>
                    </form>
