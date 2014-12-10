@@ -296,7 +296,7 @@
             <a name="contract_policy"></a>
             <h2>CONTACT US</h2>
             <div class="primary-locale">
-                      <div style="min-height:350px">
+          <div style="min-height:350px">
             <%=/centre_address_map%>
             </div>
     <!-- Contract Policy CONTENT BLOCK START-->    
