@@ -492,7 +492,11 @@ footer .nav>li>a{
      text-transform: uppercase;
      font-weight:bold;
 }
-
+.feature-item-button{
+    max-width: 200px;
+    max-height: 35px;
+    padding-top: 5px;
+}
 .feature-item a{
  
     margin-top:30px;
