@@ -355,19 +355,19 @@
                         <a href="/customer_services" data-i18n="nav.services"></a>
                         <ul class="" style="">
                             <li>
-                                <a href="/customer_services#gift_cards" data-i18n="nav.subnav.gift_cards"></a>
+                                <a href="/customer_services#gift_cards">Gift Cards</a>
                             </li>
                             <li>
-                                <a href="/customer_services#customer_services" data-i18n="nav.subnav.customer_services"></a>
+                                <a href="/customer_services#customer_services">Customer Services</a>
                             </li>
                             <li>
-                                <a href="/customer_services#fitness_walking_club" data-i18n="nav.subnav.fitness_walking_club"></a>
+                                <a href="/customer_services#fitness_walking_club">Fitness Walking Club</a>
                             </li>
                             <li>
-                                <a href="/customer_services#welcome_to_families" data-i18n="nav.subnav.welcome_to_families"></a>
+                                <a href="/customer_services#welcome_to_families">Welcome to Families</a>
                             </li>
                             <li>
-                                <a href="/customer_services#wifi" data-i18n="nav.subnav.wifi"></a>
+                                <a href="/customer_services#wifi">Wifi</a>
                             </li>
                         </ul>
                     </li>
@@ -377,11 +377,11 @@
                     <li class="page-scroll" style="">
                         <a href="/about_us" data-i18n="nav.about"></a>
                         <ul>
-                            <li><a href="/about_us#place_vertu"  ><span data-i18n="nav.subnav.place_vertu"></span></a></li>
-                            <li><a href="/about_us#leasing_information" ><span data-i18n="nav.subnav.leasing_information"></span><!--LEASING INFORMATION--></a></li>
-                            <li><a href="/about_us#charities" ><span data-i18n="nav.subnav.charities"></span><!--CHARITIES & NON-PROFIT --></a></li>
-                            <li><a href="/about_us#green_initiatives" ><span data-i18n="nav.subnav.green_initiatives"></span></a></li>
-                            <li><a href="/about_us#contract_policy"><span data-i18n="nav.subnav.contract_policy"></span></a></li>
+                            <li><a href="/about_us#place_vertu"  >Londonderry</a></li>
+                            <li><a href="/about_us#leasing_information" >Leasing Information</a></li>
+                            <li><a href="/about_us#charities" >Charities</a></li>
+                            <li><a href="/about_us#green_initiatives" >Green Initiatives</a></li>
+                            <li><a href="/about_us#contract_policy">Contract Policy</a></li>
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
