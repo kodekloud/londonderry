@@ -224,7 +224,7 @@
             </div>
  
 
-        </div>
+       
         <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
             <h1 class="hidden-xs" data-i18n="nav.services"><!--Customer Services--></h1>
             <img src="http://d33wyx0pza9yj4.cloudfront.net/sites/5431987c6e6f64102a020000/4d412bf5c9fdf38eed9830f9db5fa28a/img_customerservices.jpg" class="hidden-xs" alt="">
@@ -236,6 +236,7 @@
                 <li><a href="#wifi" class="btn btn-default"><span data-i18n="nav.subnav.wifi"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--WIFI--></a></li>
             </ul>
         </div>
+     </div>
     </div>
 
 <script>
