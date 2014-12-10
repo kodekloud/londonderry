@@ -1,0 +1,118 @@
+<div class="container promotions">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-3">
+            <h1 data-i18n="nav.events"></h1>
+            <center id="cal1" class="cal1">
+                <div class="date" id="clndr"></div>
+            </center>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+            <div id="events_not_empty_section">
+                
+                <ul class="promotion-list" id="events_list">
+                    <h2 data-i18n="general.loading_events"></h2>
+                    <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                    <script id="event_item_template" type="x-tmpl-mustache">
+                        <li class="promotion-list-item row">
+                            <div class="promo-image col-xs-3">
+                                <a href="../events/{{ slug }}">
+                                    <img src="{{event_image_url_abs}}" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="promo-details col-xs-9">
+                                <div class="name">
+                                    <h3>
+                                        <a href="../events/{{ slug }}">{{ name }}</a>
+                                    </h3>
+                                </div>
+                                <div class="dates">
+                                    {{ start_date }} <span data-i18n="general.to"></span> {{ end_date }}
+                                </div>
+                                <div class="description">
+                                    <p>{{ description }} </p>
+                                </div>
+                                <div class="social-links">
+                                    <span><a href="http://www.facebook.com/sharer.php?u=http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png"></a></span>
+                                    <span><a href="http://twitter.com/?status={{name}}%20%20http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank">
+                                           <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_twit.png">
+                                           </a></span>
+                                </div>
+                            </div>
+                        </li>
+                    </script>
+                    
+                    <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITHOUT AN IMAGE-->
+                    <script id="event_item_template_no_image" type="x-tmpl-mustache">
+                        <li class="promotion-list-item row">
+                            <div class="promo-details col-xs-12">
+                                <div class="name">
+                                    <h3>
+                                        <a href="../events/{{ slug }}">{{ name }}</a>
+                                    </h3>
+                                </div>
+                                <div class="dates">
+                                    {{ start_date }} <span data-i18n="general.to"></span> {{ end_date }}
+                                </div>
+                                <div class="description">
+                                    <p>{{ description }}</p>
+                                </div>
+                                <div class="social-links">
+                                    <span><a href="http://www.facebook.com/sharer.php?u=http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png"></a></span>
+                                    <span><a href="http://twitter.com/?status={{name}}%20%20http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank">
+                                           <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_twit.png">
+                                           </a></span>
+                                </div>
+                            </div>
+                        </li>
+                    </script>
+                    <!-- END MUSTACHE TEMPLATE FOR EVENT ITEM-->
+                </ul>  
+            </div>
+            <div id="events_empty_section" style="display:none">
+                <h2 data-i18n="general.no_events"></h2>
+            </div>
+        </div>
+ 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        
+        function renderPageData(){
+            //renders the events list by referencing the template id and the html id
+            //for where to place the rendered content. See mallmaverick.js for implementation
+            renderEventsListTemplate('#event_item_template','#event_item_template_no_image','#events_list','#events_not_empty_section','#events_empty_section',getEventsList());
+            //$(document).i18n();
+            //please see http://kylestetz.github.io/CLNDR/
+            $('#clndr').clndr({
+                events:getEventsList(),
+                  multiDayEvents: {
+                    startDate: 'start_date',
+                    endDate: 'end_date'
+                  },
+                  clickEvents: {
+                    click: function(target) {
+                      
+                    },
+                    onMonthChange: function(month) {
+                      $('.clndr-previous-button').html("<");
+                      $('.clndr-next-button').html(">");
+                    }
+                  },
+                  doneRendering: function() {
+                    
+                  }
+            });
+            
+            $('.clndr-previous-button').html("<");
+            $('.clndr-next-button').html(">");
+            $('#loading').hide();
+            $('#page_content').fadeIn('fast');
+            
+        }
+        
+        loadMallData(renderPageData);
+    });
+
+</script>
