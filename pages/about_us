@@ -367,7 +367,7 @@
                 <li><a href="#leasing_information" class="btn btn-default"><span data-i18n="nav.subnav.leasing_information"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--PLACE VERTU--><!--LEASING INFORMATION--></a></li>
                 <li><a href="#charities" class="btn btn-default"><span data-i18n="nav.subnav.charities"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--CHARITIES & NON-PROFIT --></a></li>
                 <li><a href="#green_initiatives"  class="btn btn-default" ><span data-i18n="nav.subnav.green_initiatives"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--GREEN INITIATIVES--></a></li>
-                <li><a href="#contract_policy" class="btn btn-default"><span data-i18n="nav.subnav.contract_policy"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--BUILDING CONTRACT POLICY--></a></li>
+                <li><a href="#contract_policy" class="btn btn-default"><span data-i18n="nav.subnav.contract_policy"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png">CONTACT US</a></li>
             </ul>
         </div>
     </div>
