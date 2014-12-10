@@ -353,7 +353,7 @@
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/customer_services" data-i18n="nav.services"></a>
-                        <ul class="" style="">
+                        <ul class="under-nav" style="">
                             <li>
                                 <a href="/customer_services#gift_cards">Gift Cards</a>
                             </li>
@@ -376,7 +376,7 @@
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/about_us" data-i18n="nav.about"></a>
-                        <ul>
+                        <ul class="under-nav">
                             <li><a href="/about_us#place_vertu"  >Londonderry</a></li>
                             <li><a href="/about_us#leasing_information" >Leasing Information</a></li>
                             <li><a href="/about_us#charities" >Charities</a></li>
@@ -386,7 +386,7 @@
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/contact_us" data-i18n="nav.contact"></a>
-                        <ul class="">
+                        <ul class="under-nav">
                             <li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
                             <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
                             <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
