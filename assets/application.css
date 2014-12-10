@@ -343,7 +343,9 @@ img{
     padding-right:25px;
     color:#FFF;
 }
-
+.checkbox span{
+    font-size:12px;
+}
 .mobile-nav li:first-child{
     border: none;
 }
