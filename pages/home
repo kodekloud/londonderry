@@ -81,7 +81,7 @@
             </div>
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
                <div class="header" data-i18n="general.directions"></div>
-               <a href="../contact_us#directions"><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/e876a3b54a208d3611bff73000a50e23/londonderry_directions.png" class="" alt="" style="width:100%"></a>
+               <a href="../contact_us#directions"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2367.663677330511!2d-113.52040420000002!3d53.59946240000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0235dd53234af%3A0x565e0734f9f743ad!2s137+Ave+NW%2C+Edmonton%2C+AB!5e0!3m2!1sen!2sca!4v1418251147462" width="263" height="170" frameborder="0" style="border:0"></iframe></a>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
                 <div class="header" data-i18n="general.gift_card"></div>
