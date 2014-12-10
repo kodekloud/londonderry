@@ -296,6 +296,9 @@
             <a name="contract_policy"></a>
             <h2>CONTACT US</h2>
             <div class="primary-locale">
+                      <div style="min-height:350px">
+            <%=/centre_address_map%>
+            </div>
     <!-- Contract Policy CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
   <a href="#" style="font-size:20px;display:none" id="content_block_548615e26e6f6478a0010000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_548615e26e6f6478a0010000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
