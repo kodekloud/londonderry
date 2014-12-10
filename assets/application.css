@@ -346,6 +346,9 @@ img{
 .checkbox span{
     font-size:12px;
 }
+.today_hour{
+    font-size:15px;
+}
 .mobile-nav li:first-child{
     border: none;
 }
