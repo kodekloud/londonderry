@@ -815,9 +815,10 @@ padding-top: 5px;
  
     border-radius:0px;
 }
-
-
-
+.description p{
+    overflow: hidden;
+    max-height: 60px;
+}
 
 
 
