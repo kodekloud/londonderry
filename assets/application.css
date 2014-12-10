@@ -885,8 +885,8 @@ padding-top: 5px;
 
 @media(min-width:1200px){
     .navbar-nav > li{
-        padding-left:30px;
-        padding-right:30px;
+        padding-left:25px;
+        padding-right:25px;
     }
     .home .banner{
         width:100%;
