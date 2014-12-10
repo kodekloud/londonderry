@@ -81,7 +81,7 @@
             </div>
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
                <div class="header" data-i18n="general.directions"></div>
-               <a href="../contact_us#directions"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.6431298040156!2d-113.44717499999997!3d53.599829000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDM1JzU5LjQiTiAxMTPCsDI2JzQ5LjgiVw!5e0!3m2!1sen!2sca!4v1418251812358" width="263" height="200" frameborder="0" style="border:0"></iframe></a>
+               <a href="../contact_us#directions"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.4554736044224!2d-113.44701900000001!3d53.603176999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDM2JzExLjQiTiAxMTPCsDI2JzQ5LjMiVw!5e0!3m2!1sen!2sca!4v1418251977216" width="263" height="170" frameborder="0" style="border:0"></iframe></a>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
                 <div class="header" data-i18n="general.gift_card"></div>
