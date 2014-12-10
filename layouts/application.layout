@@ -577,7 +577,11 @@
             
         
         });
-        
+         function checkErrorPage(detailObj){
+            if (typeof detailObj === "undefined") {
+                window.location.replace("/404");
+            }
+        }
     </script>
 </body>
 
