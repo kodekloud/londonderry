@@ -184,7 +184,7 @@
 
             $('#loading').hide();
             $('#page_content').fadeIn();
-            
+            console.log(dimension);
             $(function(){
                 $('.demo1').craftmap({
                     image: {
