@@ -159,14 +159,15 @@
             store_details.map_x_coordinate = store_details.x_coordinate - 19;
             store_details.map_y_coordinate = store_details.y_coordinate - 58;
             
-             var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
             checkErrorPage(store_details);
        
             
             renderStoreDetailsTemplate('#store_details_template1','#store_details1',store_details);
             renderStoreDetailsTemplate('#store_details_template2','#store_details2',store_details);
-            
+            renderStoreDetailsTemplate('#store_deatils_map_template','#store_map',store_details);
             var store_promos = getPromotionsForIds(store_details.promotions);
+               var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+          
             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image', '#promotion_list','#promotions_not_empty_section','#promotions_empty_section',store_promos);
             
             var jobs = getJobsForIds(store_details.jobs);
