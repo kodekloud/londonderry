@@ -870,7 +870,6 @@ a.readmore:link, a.readmore:visited {
 @media(max-width:767px){
     .blogpost_img{
         width:100%;
-       
     }
     .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
         margin-left: 0px;
