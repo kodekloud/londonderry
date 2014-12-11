@@ -33,7 +33,12 @@
 <script>
     $(document).ready(function() {
         function renderPageData(){
-            renderPostListTemplate('#blog_detail_template', '#blog_detail',getPostBySlug());
+             var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var blog_detail = getPostBySlug(slug);
+            checkErrorPage(event_details);
+           
+            renderPostListTemplate('#blog_detail_template', '#blog_detail',blog_detail);
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
