@@ -889,6 +889,7 @@ a.readmore:link, a.readmore:visited {
     width:100%;
 }
 .blogpost_detail_img{
+    float:left;
 text-align:center;
 margin:0 auto;
 }
