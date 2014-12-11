@@ -891,9 +891,10 @@ a.readmore:link, a.readmore:visited {
 .blog_img_section{
     width:100%;
     float:left;
+    text-align:center;
 }
 .blogpost_detail_img{
-text-align:center;
+
 margin:0 auto;
 }
 .blogpost_title a:hover {
