@@ -872,6 +872,10 @@ a.readmore:link, a.readmore:visited {
     float:left;
     font-size:30px;
 }
+.blogpost_detail_title{
+    font-size:30px;
+    float:left;
+}
 .blogpost_title a:hover {
     color:white;
 }
