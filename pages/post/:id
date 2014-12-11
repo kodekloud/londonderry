@@ -1,5 +1,5 @@
 <div class="blogpost" id="blog_detail">  
-    <script id="blog_item_template" type="x-tmpl-mustache">
+    <script id="blog_detail_template" type="x-tmpl-mustache">
         <h1>
             <a href="/posts" class="back_to">
                 <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/af1f24d005afae0c7deb5b9a4e6f8952/back_btn.png" />
@@ -33,7 +33,7 @@
 <script>
     $(document).ready(function() {
         function renderPageData(){
-            renderPostListTemplate('#blog_item_template', '#blog_list',getPostList());
+            renderPostListTemplate('#blog_detail_template', '#blog_detail',getPostList());
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
