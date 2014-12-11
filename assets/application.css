@@ -862,8 +862,12 @@ a.readmore:link, a.readmore:visited {
     font-weight:bold;
     width:100%;
 }
+.blogpost_header{
+    font-size:30px;
+    margin-left:15px;
+}
 .blogpost_title{
-    text-align:left;
+   
     margin-top:0px;
       font-size:30px;
 }
