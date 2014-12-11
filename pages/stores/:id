@@ -189,7 +189,7 @@
            	$("#scroll_to_marker").click();
             });
         }
-            //renderSVGMap(store_details);
+            renderSVGMap(store_details);
             
         }
         
