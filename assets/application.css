@@ -890,7 +890,7 @@ a.readmore:link, a.readmore:visited {
 }
 .blogpost_detail_img{
 
-
+margin:0 auto;
 }
 .blogpost_title a:hover {
     color:white;
