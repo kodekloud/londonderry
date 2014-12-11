@@ -16,7 +16,12 @@
     position: relative;
     z-index: 1;
 }
-
+.hidden-phone{
+    display:block;
+}
+.visible-phone{
+    display:none;
+}
 .map-mouse-over {
    stroke: #000;
    fill:   #66FFFF;
@@ -817,6 +822,12 @@ padding-top: 5px;
 
 
 @media(max-width:767px){
+    .visible-phone{
+        display:block;
+    }
+    .hidden-phone{
+        display:none;
+    }
     .page_content{
         margin-top:0px;
         padding-top:10px;
