@@ -180,7 +180,7 @@
             console.log('start');
             $('#loading').hide();
             $('#page_content').fadeIn();
-            
+            console.log('end');
             
         }
            
