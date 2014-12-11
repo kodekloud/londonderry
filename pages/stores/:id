@@ -182,9 +182,7 @@
             $('#page_content').fadeIn();
             console.log('end');
             
-        }
-           
-        $(function(){
+            $(function(){
             $('.demo1').craftmap({
                 image: {
         			width: 1800,
@@ -198,7 +196,11 @@
     		$("#anchor_id").click();
            	$("#scroll_to_marker").click();
             });
+            
         }
+           
+        
+        
         
         loadMallData(renderPageData);
         
