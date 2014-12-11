@@ -866,6 +866,7 @@ a.readmore:link, a.readmore:visited {
     text-align:left;
     margin-top:0px;
       font-size:30px;
+      margin-left:15px;
 }
 .blogpost_title a {
     color:white;
