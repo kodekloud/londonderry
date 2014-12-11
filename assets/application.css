@@ -840,6 +840,17 @@ a.readmore:link, a.readmore:visited {
     text-align: right;
     float:right;
 }
+.blogpost_header{
+    margin-bottom:30px;
+}
+.back_to{
+    color:#31B3A9;
+    float:right;
+}
+
+.blogpost_header{
+    
+}
 .blogpost_img{
     max-width:470px;
     float:left;
