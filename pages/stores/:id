@@ -174,13 +174,7 @@
             $('#loading').hide();
             $('#page_content').fadeIn();
             
-            $( "#page_content" ).fadeIn( "fast");
-            //renderSVGMap(store_details);
-            
-        }
-        
-        loadMallData(renderPageData);
-            $(function(){
+               $(function(){
             $('.demo1').craftmap({
                 image: {
         			width: 1800,
@@ -195,6 +189,12 @@
            	$("#scroll_to_marker").click();
             });
         }
+            //renderSVGMap(store_details);
+            
+        }
+        
+        loadMallData(renderPageData);
+        
         
         function goToStore(store_details){
             if(typeof(store_details) != 'undefined' && store_details != null){
