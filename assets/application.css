@@ -871,6 +871,8 @@ a.readmore:link, a.readmore:visited {
 .blogpost_detail_header{
     float:left;
     font-size:30px;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 .blogpost_detail_title{
     font-size:30px;
