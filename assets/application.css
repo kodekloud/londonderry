@@ -822,6 +822,10 @@ padding-top: 5px;
 
 
 @media(max-width:767px){
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     nav{
         width:100% !important;
     }
