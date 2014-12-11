@@ -50,17 +50,13 @@ background-color: #FFFFFF ;
             <!-- END MUSTACHE TEMPLATE FOR STORE DETAILS-->
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9">
-               <div id="zControls">
-                    <button class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
-                    <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
-                    
-                </div>
+            
               
                 
                 <div class="store_map" id="store_map">
                     <script id="store_deatils_map_template" type="x-tmpl-mustache">
                         <div class="demo1">
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/fdff1fdf80620c567f3d5995dc758597/hcm_map.jpg" class="imgMap" id="map_image" />                
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/365494cc1c6dded7608bd0f668cb2714/londonderrymap_2.png" class="imgMap" id="map_image" />                
                 	        <div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
             	        </div>   
                     </script>
