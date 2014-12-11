@@ -863,6 +863,7 @@ a.readmore:link, a.readmore:visited {
     width:100%;
 }
 .blogpost_title{
+    text-align:left;
     margin-top:0px;
       font-size:30px;
 }
