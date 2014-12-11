@@ -21,17 +21,14 @@
             <!-- END MUSTACHE TEMPLATE FOR STORE DETAILS-->
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9">
-       
-            <div class="store_map" id="store_map">
-                <script id="store_deatils_map_template" type="x-tmpl-mustache">
-                    <div class="demo1">
-                        <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/365494cc1c6dded7608bd0f668cb2714/londonderrymap_2.png" class="imgMap" id="map_image" />                
-                        <div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
-                    </div>   
-                </script>
-             </div> 
-       
-       
+            <div style="overflow:hidden">
+                <div id="zControls">
+                    <button class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
+                    <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
+                    
+                </div>
+                <div id="map" class="panzoom-elements" style=""></div>
+                </div>
             <div id="store_details2">
                 <!-- START MUSTACHE TEMPLATE FOR STORE DETAILS-->
                 <script id="store_details_template2" type="x-tmpl-mustache">
@@ -146,9 +143,6 @@
 <script>
 
     $(document).ready(function() {
-        var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
-        $("#pop-over").hide();
-        var didPanZoom = false;
         
         function renderPageData(){
             //renders the store list by referencing the template id and the html id
@@ -156,18 +150,18 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
-            store_details.map_x_coordinate = store_details.x_coordinate - 19;
-            store_details.map_y_coordinate = store_details.y_coordinate - 58;
             
             checkErrorPage(store_details);
-       
+            store_details.map_x_coordinate = store_details.x_coordinate - 19;
+            store_details.map_y_coordinate = store_details.y_coordinate - 58;
             
             renderStoreDetailsTemplate('#store_details_template1','#store_details1',store_details);
             renderStoreDetailsTemplate('#store_details_template2','#store_details2',store_details);
             renderStoreDetailsTemplate('#store_deatils_map_template','#store_map',store_details);
+            
+            var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+            
             var store_promos = getPromotionsForIds(store_details.promotions);
-               var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-          
             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image', '#promotion_list','#promotions_not_empty_section','#promotions_empty_section',store_promos);
             
             var jobs = getJobsForIds(store_details.jobs);
@@ -175,32 +169,19 @@
             $('#loading').hide();
             $('#page_content').fadeIn();
             
-            $(function(){
-                $('.demo1').craftmap({
-                    image: {
-            			width: 1800,
-        				height: 1356,
-        				name: 'imgMap'
-        			},
-        			map: {
-        				position: dimension
-        			}
-        		});
-        		$("#anchor_id").click();
-               	$("#scroll_to_marker").click();
-                });
-            }
             
-            
-        
+        }
         
         loadMallData(renderPageData);
-        
         
         function goToStore(store_details){
             if(typeof(store_details) != 'undefined' && store_details != null){
                 window.location.href = "/stores/"+store_details.slug;
             }
         }
+
+
+     
+        
     });
 </script>
