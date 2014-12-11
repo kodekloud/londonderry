@@ -868,9 +868,10 @@ a.readmore:link, a.readmore:visited {
 
 
 @media(max-width:767px){
-    .blogpost_img{
-        width:100%;
+    .blogpost img{
+        margin-bottom:10px;        
     }
+
     .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
         margin-left: 0px;
         margin-right: 0px;
