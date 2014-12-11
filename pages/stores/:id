@@ -1,3 +1,8 @@
+
+<script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+
+
+
 <div id="pop-over">
     <span class="pull-left">
         <div id="pop-over-map-name">Default Name</div>
@@ -161,11 +166,11 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
-            console.log('111111');
+
             checkErrorPage(store_details);
             store_details.map_x_coordinate = store_details.x_coordinate - 19;
             store_details.map_y_coordinate = store_details.y_coordinate - 58;
-            console.log('222222');
+
             renderStoreDetailsTemplate('#store_details_template1','#store_details1',store_details);
             renderStoreDetailsTemplate('#store_details_template2','#store_details2',store_details);
             renderStoreDetailsTemplate('#store_deatils_map_template','#store_map',store_details);
@@ -177,24 +182,23 @@
             
             var jobs = getJobsForIds(store_details.jobs);
             renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',jobs);
-            console.log('start');
+
             $('#loading').hide();
             $('#page_content').fadeIn();
-            console.log('end');
             
             $(function(){
-            $('.demo1').craftmap({
-                image: {
-        			width: 1800,
-    				height: 1356,
-    				name: 'imgMap'
-    			},
-    			map: {
-    				position: dimension
-    			}
-    		});
-    		$("#anchor_id").click();
-           	$("#scroll_to_marker").click();
+                $('.demo1').craftmap({
+                    image: {
+            			width: 1800,
+        				height: 1356,
+        				name: 'imgMap'
+        			},
+        			map: {
+        				position: dimension
+        			}
+        		});
+    		    $("#anchor_id").click();
+           	    $("#scroll_to_marker").click();
             });
             
         }
