@@ -381,6 +381,7 @@ img{
 }
 .blogpost>h2>a {
     color:white;
+    font-size:30px;
 }
 .blogpost>h2>a:hover {
     color:white;
