@@ -27,7 +27,18 @@
                     <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
                     
                 </div>
-                <div id="map" class="panzoom-elements" style=""></div>
+                
+                <div class="store_map" id="store_map">
+                    <script id="store_deatils_map_template" type="x-tmpl-mustache">
+                        <div class="demo1">
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/fdff1fdf80620c567f3d5995dc758597/hcm_map.jpg" class="imgMap" id="map_image" />                
+                	        <div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
+            	        </div>   
+                    </script>
+                 </div> 
+
+                
+                
                 </div>
             <div id="store_details2">
                 <!-- START MUSTACHE TEMPLATE FOR STORE DETAILS-->
@@ -170,6 +181,22 @@
             $('#page_content').fadeIn();
             
             
+        }
+           
+        $(function(){
+            $('.demo1').craftmap({
+                image: {
+        			width: 1800,
+    				height: 1356,
+    				name: 'imgMap'
+    			},
+    			map: {
+    				position: dimension
+    			}
+    		});
+    		$("#anchor_id").click();
+           	$("#scroll_to_marker").click();
+            });
         }
         
         loadMallData(renderPageData);
