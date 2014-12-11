@@ -177,6 +177,7 @@
             
             var jobs = getJobsForIds(store_details.jobs);
             renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',jobs);
+            console.log('start');
             $('#loading').hide();
             $('#page_content').fadeIn();
             
