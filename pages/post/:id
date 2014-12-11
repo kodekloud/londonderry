@@ -33,7 +33,7 @@
 <script>
     $(document).ready(function() {
         function renderPageData(){
-            renderPostListTemplate('#blog_detail_template', '#blog_detail',getPostList());
+            renderPostListTemplate('#blog_detail_template', '#blog_detail',getPostBySlug());
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
