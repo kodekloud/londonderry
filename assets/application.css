@@ -862,14 +862,14 @@ a.readmore:link, a.readmore:visited {
 }
 .blogpost_title{
     margin-top:0px;
+      font-size:30px;
 }
 .blogpost_title a {
     color:white;
     font-size:30px;
 }
-.blogpost_title  {
-   
-    font-size:30px;
+.blogpost_detail_title{
+    float:left;
 }
 .blogpost_title a:hover {
     color:white;
