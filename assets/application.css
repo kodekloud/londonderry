@@ -379,7 +379,12 @@ img{
     list-style-type: circle;
     margin-left:40px;
 }
-
+.blogpost>h2>a {
+    color:white;
+}
+.blogpost>h2>a:hover {
+    color:white;
+}
 .search-results-mobile .name{
     color:#FFF;
     font-size:15px;
