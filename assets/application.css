@@ -863,8 +863,10 @@ a.readmore:link, a.readmore:visited {
     width:100%;
 }
 .blogpost_header{
+    text-align:left;
     font-size:30px;
     margin-left:15px;
+    margin-bottom:0px;
 }
 .blogpost_title{
    
