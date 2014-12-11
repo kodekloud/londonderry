@@ -888,6 +888,9 @@ a.readmore:link, a.readmore:visited {
     float:left;
     width:100%;
 }
+.blog_img_section{
+    width:100%;
+}
 .blogpost_detail_img{
     float:left;
 text-align:center;
