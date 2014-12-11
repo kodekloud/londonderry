@@ -1,17 +1,18 @@
-    <div class="blogpost">    
-        <h1>
-            <a href="/posts" class="back_to">
-                <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/af1f24d005afae0c7deb5b9a4e6f8952/back_btn.png" />
-            </a>
-            {{ title }}        
-        </h1>
-        
-        <p>{{ publish_date }} + {{ author }}</p>
-        
-        <img src="{{post.image_path}}" />
-        
-        {{ html_body }}
-        
+    <div class="blogpost" id="blog_detail">  
+        <script id="blog_item_template" type="x-tmpl-mustache">
+            <h1>
+                <a href="/posts" class="back_to">
+                    <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/af1f24d005afae0c7deb5b9a4e6f8952/back_btn.png" />
+                </a>
+                {{ title }}        
+            </h1>
+            
+            <p>{{ publish_date }} + {{ author }}</p>
+            
+            <img src="{{image_url}}" />
+            
+            {{ html_body }}
+        </script>
         <!-- DISQUS start -->
         <div id="disqus_thread"></div>
         <script type="text/javascript">
