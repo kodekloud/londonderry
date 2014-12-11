@@ -877,6 +877,10 @@ a.readmore:link, a.readmore:visited {
     float:left;
     width:100%;
 }
+.blogpost_detail_img{
+
+    width:100%;
+}
 .blogpost_title a:hover {
     color:white;
 }
