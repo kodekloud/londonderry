@@ -188,8 +188,8 @@
             $(function(){
                 $('.demo1').craftmap({
                     image: {
-            			width: 1800,
-        				height: 1356,
+            			width: 1000,
+        				height: 900,
         				name: 'imgMap'
         			},
         			map: {
