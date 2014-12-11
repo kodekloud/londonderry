@@ -846,6 +846,7 @@ a.readmore:link, a.readmore:visited {
 .back_to{
     color:#31B3A9;
     float:right;
+    padding-top:15px;
 }
 
 .blogpost_header{
