@@ -856,6 +856,10 @@ a.readmore:link, a.readmore:visited {
     color:white;
     font-size:30px;
 }
+.blogpost_title  {
+   
+    font-size:30px;
+}
 .blogpost_title a:hover {
     color:white;
 }
