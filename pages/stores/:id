@@ -193,7 +193,7 @@
         				name: 'imgMap'
         			},
         			map: {
-        				position: dimension
+        				position: 'center'
         			}
         		});
     		    $("#anchor_id").click();
