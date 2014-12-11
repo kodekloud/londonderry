@@ -1,0 +1,149 @@
+
+
+<script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+
+
+    <div class="row">
+      
+        <div class="col-xs-12">
+             <div class="store_map" id="store_map">
+    <center> <img style="width:250px; height:250px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
+  
+             <script id="store_deatils_map_template" type="x-tmpl-mustache">
+            <div class="demo1">
+            
+                <img src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/fdff1fdf80620c567f3d5995dc758597/hcm_map.jpg" class="imgMap" id="map_image" />                
+            	<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
+        	</div>   
+          
+            </script>
+             </div>         
+                    
+          <div class="store-details col-sm-12" id="store_details1">
+            <!-- START MUSTACHE TEMPLATE FOR STORE DETAILS-->
+            <script id="store_details_template1" type="x-tmpl-mustache">
+                <div class="col-xs-3 store-detail-img hidden-phone"> <img src="{{store_front_url}}"></div>
+                <div class="col-xs-9 store-detail-desc hidden-phone">
+                    <div class="row store-name-row">
+                         <span class="store-detail-name">{{name}}</span>
+                    
+                        <span class="phone-website">
+                            <span class="store-detail-phone">&nbsp;| {{phone}} </span> 
+                            <span class="store-detail-website"><a href="https://{{website}}" target="_blank">Visit Website </a></span>
+                        </span>
+                    </div>
+                    
+                    <div class="row store-desc-row">
+                                 <p>{{description}}</p>
+                    </div>
+                    
+                </div>
+                
+                     <div class="visible-phone mobile-store-detail-img" > <img src="{{store_front_url}}"></div>
+                    <div class=" visible-phone mobile-store-detail-desc">
+                             <div class="mobile-store-name">{{name}}</div>
+                                <div class="mobile-store-phone"><img src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f7db2d93d3d6d9e0f6f42266e8ae2154/icon_call.png" class="mobile-phone-icon">{{phone}} </div> 
+                                <div class="mobile-store-website"><img src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/f7db2d93d3d6d9e0f6f42266e8ae2154/icon_web.png" class="mobile-web-icon"><a href="https://{{website}}" target="_blank">Web </a></div>
+                        </div>
+                      
+                        
+                        
+                
+                    <div class="col-xs-12 store-desc-row">
+                                     <p>{{description}}</p>
+                        </div>
+                </div>
+            </script>
+            <!-- END MUSTACHE TEMPLATE FOR STORE DETAILS-->
+        </div>
+            
+       
+             <div class="" id="promotions_not_empty_section" style="display:none;">
+                
+                  
+                <span class="promo-name">PROMOTIONS</span>
+                    <hr style="margin-top:10px;margin-bottom:10px;">
+                <div id="promotion_list" class="promotion-list col-sm-12">
+                  
+                <!-- START MUSTACHE TEMPLATE FOR STORE PROMOTIONS-->
+                <script id="promotion_item_template" type="x-tmpl-mustache">
+               
+                     <div class="promotion-list-item store-detail-promo">
+                    <a name="{{promotionable_name}}"></a>
+                    <div class="promo-details col-xs-12 padding-left-none padding-right-none">
+                        <div class="promo-name">
+                            {{ name }}
+                        </div>
+                       
+                        <div class="promo-dates">
+                            {{ start_date }} to {{ end_date }}
+                        </div>
+                        <div>
+                            <p class="promotion-more"><a href="../promotions/{{ slug }}">read more</a></p>
+                        </div>
+                     
+                    </div>
+                </div>
+                </script>
+              
+                <!-- END MUSTACHE TEMPLATE FOR STORE PROMOTIONS-->
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+<script>
+    
+    $(document).ready(function() {
+        
+        function renderPageData(){
+            
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        var store_details = getStoreDetailsBySlug(slug);
+        checkErrorPage(store_details);
+        store_details.map_x_coordinate = store_details.x_coordinate - 19;
+         store_details.map_y_coordinate = store_details.y_coordinate - 58;
+         
+          document.title = "Halifax Shopping Centre - " + store_details.name;
+        store_details.store_front_url = changeStoreImgUrl(store_details);
+        renderStoreDetailsTemplate('#store_details_template1','#store_details1',store_details);
+        renderStoreDetailsTemplate('#store_details_template2','#store_details2',store_details);
+         renderStoreDetailsTemplate('#store_deatils_map_template','#store_map',store_details);
+        
+        
+        var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+        var store_promos = getPromotionsForIds(store_details.promotions);
+        renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template', '#promotion_list','#promotions_not_empty_section','#promotions_empty_section',store_promos);
+        
+        //var jobs = getJobsForIds(store_details.jobs);
+        //renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',jobs);
+        
+        
+        
+        $(function(){
+            $('.demo1').craftmap({
+                image: {
+        			width: 1800,
+    				height: 1356,
+    				name: 'imgMap'
+    			},
+    			map: {
+    				position: dimension
+    			}
+    		});
+    		$("#anchor_id").click();
+           	$("#scroll_to_marker").click();
+            });
+        }
+        
+        loadMallData(renderPageData);
+        
+    
+         
+   
+    });
+</script>
