@@ -35,7 +35,7 @@
         function renderPageData(){
              var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var blog_detail = getPostBySlug(slug);
+            var blog_detail = getPostDetailsBySlug(slug);
             checkErrorPage(blog_detail);
            
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail',blog_detail);
