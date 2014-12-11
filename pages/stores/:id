@@ -156,7 +156,10 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
+            store_details.map_x_coordinate = store_details.x_coordinate - 19;
+            store_details.map_y_coordinate = store_details.y_coordinate - 58;
             
+             var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
             checkErrorPage(store_details);
        
             
@@ -170,11 +173,28 @@
             renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',jobs);
             $('#loading').hide();
             $('#page_content').fadeIn();
-            renderSVGMap(store_details);
+            
+            
+            //renderSVGMap(store_details);
             
         }
         
         loadMallData(renderPageData);
+            $(function(){
+            $('.demo1').craftmap({
+                image: {
+        			width: 1800,
+    				height: 1356,
+    				name: 'imgMap'
+    			},
+    			map: {
+    				position: dimension
+    			}
+    		});
+    		$("#anchor_id").click();
+           	$("#scroll_to_marker").click();
+            });
+        }
         
         function goToStore(store_details){
             if(typeof(store_details) != 'undefined' && store_details != null){
