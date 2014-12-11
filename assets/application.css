@@ -1,24 +1,16 @@
 @font-face {
-   font-family: 'DINAlternateBold';
-    src: url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.eot');
-    src: url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.eot#iefix') format('eot'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/620b28b71dc2800e8f17055c838e0591/dinalternatebold.woff') format('woff'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.ttf') format('truetype'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.svg#DINAlternateBold') format('svg');
-   font-weight: bold;
+   font-family: 'WhitneyHTF-Bold';
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.eot');
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.eot#iefix') format('eot'),
+         url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.ttf') format('truetype')
 }
 
 @font-face {
     
-  font-family: 'pf_dindisplay_prolight';
-    src: url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.eot');
-    src: url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.eot?#iefix') format('eot'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.woff2') format('woff2'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.woff') format('woff'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.ttf') format('truetype'),
-         url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/18d68c14200656325b413fb8dd24ece6/pfdindisplaypro-light-webfont.svg#pf_dindisplay_prolight') format('svg');
-    font-weight: normal;
-    font-style: normal;    
+  font-family: 'WhitneyHTF-Book';
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.eot');
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.eot?#iefix') format('eot'),
+         url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.ttf') format('truetype')
 }
 
 #zControls {
