@@ -1,16 +1,13 @@
 @font-face {
    font-family: 'WhitneyHTF-Bold';
-    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.eot');
-    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.eot#iefix') format('eot'),
-         url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Bold.ttf') format('truetype')
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/91754c3c4e24d19b68c6bb4e6dcd627e/Whitney-Bold.ttf');
+
 }
 
 @font-face {
     
   font-family: 'WhitneyHTF-Book';
-    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.eot');
-    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.eot?#iefix') format('eot'),
-         url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.ttf') format('truetype')
+    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.ttf');
 }
 
 #zControls {
