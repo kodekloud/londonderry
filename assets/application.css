@@ -4,11 +4,13 @@
 
 }
 
-@font-face {
+
     
-  font-family: 'WhitneyHTF-Book';
-    src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/8f92694976d7482f1606f241d1dd7ad8/Whitney-Book.ttf');
+@font-face{
+  font-family: WhitneyHTF-Book;
+  src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/005/036/original/WhitneyHTF-Book.ttf?1412331020);
 }
+
 
 #zControls {
     position: relative;
