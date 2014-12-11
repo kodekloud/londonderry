@@ -37,7 +37,7 @@
             var slug = pathArray[pathArray.length-1];
             console.log(slug);
             var blog_detail = getPostDetailsBySlug(slug);
-            checkErrorPage(blog_detail);
+           // checkErrorPage(blog_detail);
            
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail',blog_detail);
             $('#loading').hide();
