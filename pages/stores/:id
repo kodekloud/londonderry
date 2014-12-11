@@ -27,11 +27,7 @@
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9">
             
-                <div id="zControls">
-                    <button class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
-                    <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
-                    
-                </div>
+              
                 
                 <div class="store_map" id="store_map">
                     <script id="store_deatils_map_template" type="x-tmpl-mustache">
