@@ -868,8 +868,9 @@ a.readmore:link, a.readmore:visited {
     color:white;
     font-size:30px;
 }
-.blogpost_detail_title{
+.blogpost_detail_header{
     float:left;
+    font-size:30px;
 }
 .blogpost_title a:hover {
     color:white;
