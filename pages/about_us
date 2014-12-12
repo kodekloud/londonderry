@@ -13,7 +13,7 @@
     margin-left: 290px;
 }
 .side-bar{
-    width:100%;
+    width:33%;
 }
 </style>
 
