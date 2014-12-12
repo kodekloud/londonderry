@@ -343,7 +343,7 @@ img{
     color:#FFF;
 }
 .checkbox span{
-    font-size:12px;
+    font-size:11px;
 }
 .today_hour{
     font-size:15px;
@@ -518,7 +518,7 @@ padding-top: 5px;
 }
 
 .feature-item input{
-    width:100%;
+    width:230px;
     
 }
 
