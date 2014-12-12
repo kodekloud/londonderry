@@ -2,10 +2,11 @@
     
     .sidebar-nav-fixed {
    
-    position:fixed;
-    right:75%;
-    top:60px;
-    width:25%;
+   left: 19%;
+    position: fixed;
+    right: 75%;
+    top: 190px;
+    width: 16%;
 }
 
 .row-fluid > .span-fixed-sidebar {
