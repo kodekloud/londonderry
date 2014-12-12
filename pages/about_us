@@ -411,7 +411,7 @@
 
 
     jQuery(window).scroll(function(){ 
-        var navHeight = $('.navbar').height();
+        var navHeight = $('nav').height();
         var windowTop = $(window).scrollTop() - navHeight; 
         jQuery('#sidebar').css('top',windowTop);  
     });
