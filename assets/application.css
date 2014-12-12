@@ -163,7 +163,7 @@ img{
 .mobile-nav{
     text-align:center;
 }
-.mobile-nav-social{
+.mobile-nav-social a{
     display:inline;
 }
 .navbar-default .navbar-toggle {
