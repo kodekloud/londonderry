@@ -441,11 +441,11 @@
         <div class="">
         
                 
-                        <img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
-                   
+                       
            
-                        <span class="signature-item">
-                            <p id="center_signature">2014 Londonderrt All Rights Reserved</p>
+                     
+                            <p id="center_signature"> <img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
+                    2014 Londonderrt All Rights Reserved</p>
                         </span>
                         <span class="signature-item">
                             <a href="../privacy_policy" data-i18n="app.privacy_policy"><!--Privacy Policy--></a>
