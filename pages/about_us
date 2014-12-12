@@ -408,6 +408,7 @@
         
     });
     jQuery(window).scroll(function(){ 
+        alert($('.navbar').height());
    var windowTop = $(window).scrollTop()-100; 
    jQuery('#sidebar').css('top',windowTop);  
 });
