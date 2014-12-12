@@ -338,7 +338,7 @@
       </center>
       <div id="page_content" style="display:none">{{yield}}</div>
     </div>
-    <div class="bottom-nav">
+    <div class="bottom-nav hidden-phone">
         <div class="container">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">
                 <ul class="nav navbar-nav" style="">
