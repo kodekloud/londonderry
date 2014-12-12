@@ -424,6 +424,8 @@
         
         if ($(window).scrollTop() > 140) {
             jQuery('#sidebar').css('top',windowTop); 
+        }else{
+             jQuery('#sidebar').css('top',$(window).scrollTop() - 140 ); 
         }
   
     });
