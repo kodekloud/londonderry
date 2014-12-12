@@ -300,7 +300,7 @@
                         <a href="../events" data-i18n="nav.events"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../customer_services" data-i18n="nav.services"></a>
+                        <a href="../services">Services</a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../jobs" data-i18n="nav.jobs"></a>
