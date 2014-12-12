@@ -409,7 +409,7 @@
     });
     jQuery(window).scroll(function(){ 
         var navHeight = $('.navbar').height();
-        var windowTop = $(window).scrollTop()+ navHeight; 
+        var windowTop = $(window).scrollTop() - navHeight; 
         jQuery('#sidebar').css('top',windowTop);  
     });
 </script>        
