@@ -1,12 +1,12 @@
 <div class="container promotions">
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="col-xs-12 col-sm-4 col-md-3" id="sidebar">
             <h1 data-i18n="nav.events"></h1>
             <center id="cal1" class="cal1">
                 <div class="date" id="clndr"></div>
             </center>
         </div>
-        <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
             <div id="events_not_empty_section">
                 
                 <ul class="promotion-list" id="events_list">
