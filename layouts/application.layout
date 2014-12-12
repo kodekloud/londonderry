@@ -447,14 +447,17 @@
                         <p id="center_signature" style="text-align:center; color:white;"> <img style="margin-right:10px;" class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
                     2014 Londonderrt All Rights Reserved</p>
                         </span>
-                        <span class="signature-item" style="text-align:center;">
-                            <a href="../privacy_policy">Privacy Policy</a>
-                 
-                            <a href="http://www.mallmaverick.com" target="_blank"> Powered by Mall Maverick</a>
-               
-                            {{site_version}}
-                 
-                            <a href="http://www.20vic.com" target="_blank"><img style="margin-left:15px;" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_20vic.png" ></a>
+                        <span class="signature-item" >
+                            <p style="text-align:center;">
+                                <a href="../privacy_policy">Privacy Policy</a>
+                     
+                                <a href="http://www.mallmaverick.com" target="_blank"> Powered by Mall Maverick</a>
+                   
+                                {{site_version}}
+                     
+                                <a href="http://www.20vic.com" target="_blank"><img style="margin-left:15px;" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_20vic.png" ></a>
+                            
+                            </p>
                         </span>
                
                 
