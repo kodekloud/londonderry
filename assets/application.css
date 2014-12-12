@@ -212,7 +212,9 @@ img{
     
 }
 .carousel{
-    background-color:white;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
 }
 .social-link{
     margin-top:20px;
