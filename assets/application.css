@@ -163,6 +163,9 @@ img{
 .mobile-nav{
     text-align:center;
 }
+.mobile-nav-social{
+    padding-top:10px;
+}
 .mobile-nav-social a{
     display:inline !important;
 }
