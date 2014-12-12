@@ -412,13 +412,6 @@
 
     jQuery(window).scroll(function(){ 
         var navHeight = $('nav').height();
-        // if(window.top == window.self) {
-        //     var windowTop = $(window).scrollTop() - 140; 
-        // } else {
-        //     var windowTop = $(window).scrollTop() - navHeight; 
-        // }
-        
-        
         var windowTop = $(window).scrollTop() - navHeight; 
         var sidebarHeight = $('#sidebar').height();
         var contentHeight = $('#right-content').height();
