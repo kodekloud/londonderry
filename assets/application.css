@@ -160,7 +160,9 @@ img{
     height:3px;
     margin-top:7px;
 }
-
+.mobile-nav{
+    text-align:center;
+}
 .navbar-default .navbar-toggle {
     border-color: #FFF;
     background-color:#FFF;
