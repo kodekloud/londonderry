@@ -6,7 +6,7 @@
     position: fixed;
   
     top: 190px;
-    max-width:300px;
+
 }
 
 .row-fluid > .span-fixed-sidebar {
