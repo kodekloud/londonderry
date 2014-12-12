@@ -2,10 +2,10 @@
     
     .sidebar-nav-fixed {
    
-   left: 19%;
+ 
     position: fixed;
   
-    top: 190px;
+    top: 150px;
 
 }
 
