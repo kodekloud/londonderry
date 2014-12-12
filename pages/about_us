@@ -414,10 +414,7 @@
         var navHeight = $('nav').height();
         if(window.top == window.self) {
             var windowTop = $(window).scrollTop() - 120; 
-          console.log('if');
-        } else {
-            var windowTop = $(window).scrollTop() - navHeight; 
-        }
+        } 
         if ($(window).scrollTop() > 140) {
             jQuery('#sidebar').css('top',windowTop); 
         }
