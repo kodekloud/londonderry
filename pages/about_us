@@ -408,7 +408,7 @@
         
     });
     jQuery(window).scroll(function(){ 
-   var windowTop = $(window).scrollTop()-60; 
+   var windowTop = $(window).scrollTop(); 
    jQuery('#sidebar').css('top',windowTop);  
 });
 </script>        
