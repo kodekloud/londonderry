@@ -53,9 +53,9 @@
                             <p>{{ description }}</p>
                         </div>
                         <div class="social-links">
-                            <span><a href="http://www.facebook.com/sharer.php?u=http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png"></a></span>
+                            <span><a href="http://www.facebook.com/sharer.php?u=http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/facebook-Icon.png"></a></span>
                             <span><a href="http://twitter.com/?status={{name}}%20%20http://placevertu.kodekloud.io/promotions/{{slug}}" target="_blank">
-                                   <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_twit.png">
+<img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/Twitter-Icon.png" class="" alt="">
                                    </a></span>
                         </div>
                     </div>
