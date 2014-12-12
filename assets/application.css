@@ -164,7 +164,7 @@ img{
     text-align:center;
 }
 .mobile-nav-social a{
-    display:inline;
+    display:inline !important;
 }
 .navbar-default .navbar-toggle {
     border-color: #FFF;
