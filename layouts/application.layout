@@ -239,7 +239,7 @@
                         <a href="../events" data-i18n="nav.events"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../customer_services" data-i18n="nav.services"></a>
+                        <a href="../services" >Services</a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../jobs" data-i18n="nav.jobs"></a>
@@ -248,7 +248,7 @@
                         <a href="../about_us" data-i18n="nav.about"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../contact_us" data-i18n="nav.contact"></a>
+                        <a href="../posts">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -355,7 +355,7 @@
                         <a href="../events" data-i18n="nav.events"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/customer_services" data-i18n="nav.services"></a>
+                        <a href="/services" >Services</a>
                         <ul class="under-nav" style="">
                             <li>
                                 <a href="/customer_services#gift_cards">Gift Cards</a>
