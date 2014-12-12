@@ -441,11 +441,9 @@
         <div class="row">
         
                 
-                    <div class="">
                         <img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
-                    </div>
+                   
            
-                    <div class="">
                         <span class="signature-item">
                             <p><span id="center_signature"><!--2014 Centre Name--></span> <span data-i18n="general.all_rights_reserved"><!-- All Rights Reserved--></span></p>
                         </span>
@@ -461,8 +459,6 @@
                             {{site_version}}
                         </span>
                         
-                    </div>
-                
                     <span class="signature-item property-logo pull-left">
                             <a href="http://www.20vic.com" target="_blank"><img class="left" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_20vic.png" ></a>
                     </span>
