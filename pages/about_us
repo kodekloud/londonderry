@@ -12,6 +12,9 @@
 .row-fluid > .span-fixed-sidebar {
     margin-left: 290px;
 }
+.side-bar{
+    width:100%;
+}
 </style>
 
 
