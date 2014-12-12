@@ -597,6 +597,11 @@ padding-top: 5px;
     margin-top:20px;
 }
 
+.detail-social{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 .promotions .list-group-item{
     border:none;
     color:#000;
