@@ -403,5 +403,6 @@
     $(document).ready(function() {
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
+        $('#sidebar').stickyMojo({footerID: '#footer', contentID: '#main'});
     });
 </script>        
