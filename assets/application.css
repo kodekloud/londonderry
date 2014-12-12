@@ -163,6 +163,9 @@ img{
 .mobile-nav{
     text-align:center;
 }
+.mobile-nav-social{
+    display:inline;
+}
 .navbar-default .navbar-toggle {
     border-color: #FFF;
     background-color:#FFF;
