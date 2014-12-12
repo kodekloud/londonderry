@@ -418,9 +418,9 @@
         } else {
             var windowTop = $(window).scrollTop() - navHeight; 
         }
-          if ($(window).scrollTop() > 120) {
+        if ($(window).scrollTop() > 140) {
             jQuery('#sidebar').css('top',windowTop); 
-         }
+        }
   
     });
 </script>        
