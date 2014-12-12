@@ -4,7 +4,7 @@
    
    left: 19%;
     position: fixed;
-    right: 75%;
+  
     top: 190px;
     width: 16%;
 }
