@@ -384,7 +384,8 @@
             
 
         </div>
-        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9 sidebar-nav-fixed" >
+        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9 " >
+            <div class="side-bar sidebar-nav-fixed">
             <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
 <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/img_contactus.jpg" class="hidden-xs" alt="">
             <ul class="button-panel">
@@ -394,6 +395,7 @@
                 <li><a href="#green_initiatives"  class="btn btn-default" ><span data-i18n="nav.subnav.green_initiatives"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--GREEN INITIATIVES--></a></li>
                 <li><a href="#contract_policy" class="btn btn-default">Contact Us</span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"></a></li>
             </ul>
+            </div>
         </div>
     </div>
 </div>
