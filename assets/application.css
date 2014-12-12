@@ -926,7 +926,7 @@ margin:0 auto;
 
 @media(max-width:767px){
     .signature-item{
-        float:none;
+        float:none !important;
     }
     .page_content{
         padding-bottom:0px;
