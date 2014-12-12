@@ -408,8 +408,8 @@
         
     });
     jQuery(window).scroll(function(){ 
-        alert($('.navbar').height());
-   var windowTop = $(window).scrollTop()-100; 
-   jQuery('#sidebar').css('top',windowTop);  
-});
+        var navHeight = $('.navbar').height();
+        var windowTop = $(window).scrollTop()+ navHeight; 
+        jQuery('#sidebar').css('top',windowTop);  
+    });
 </script>        
