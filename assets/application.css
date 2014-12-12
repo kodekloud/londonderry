@@ -925,6 +925,9 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    .page_content{
+        padding-bottom:0px;
+    }
     .blogpost img{
         margin-bottom:10px;        
     }
