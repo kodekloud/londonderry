@@ -147,7 +147,7 @@
                $(this).serialize(),
                function (data) {
                    if (data.Status === 400) {
-                       alert(data.log);
+                       console.log(data.log);
                        alert("Please try again later.");
                    } else { // 200
                        $("#success_subscribe").fadeIn();
