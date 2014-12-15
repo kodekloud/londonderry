@@ -142,6 +142,7 @@
            }
            e.preventDefault();
            $.getJSON(
+               alert('test ardy');
                this.action + "?callback=?",
                $(this).serialize(),
                function (data) {
