@@ -629,12 +629,12 @@ padding-top: 5px;
 
 .promotions-flag{
     
-    background:url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/b48d435cd9895665e10714f35ed65550/icon_promo.png');    
-    height:35px;
-    width:50px;
+    background:url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/b48d435cd9895665e10714f35ed65550/icon_promo.png') no-repeat scroll transparent;   
+    margin-left:10px;
     padding-left:10px;
     padding-right:10px;
-
+    padding-top:5px;
+    padding-bottom:3px;
 }
 
 .jobs-flag{
