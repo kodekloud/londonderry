@@ -144,6 +144,14 @@ ul{
     list-style-type: circle;
 }
 
+
+.anchor{
+  display: block;
+  height: 150px; /*same height as header*/
+  margin-top: -150px; /*same height as header*/
+  visibility: hidden;
+}
+
 img{
     max-width:100%;
     height:auto;
