@@ -13,7 +13,7 @@
             <a class="anchor" name="opening_hours"></a>
             <%=/centre_hours%>
             <!--PARKING INFORMATION-->
-            <a class="anchor" name="place_vertu"></a>
+            <a class="anchor" name="leasing_information"></a>
             <h2>Leasing</h2>
             <div class="primary-locale">
 <!-- About CONTENT BLOCK START-->    
@@ -376,11 +376,13 @@
                 <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
                 <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3d2feb8fb67ca18031833e0a252090dd/7223_Londonderry_AboutUs2.jpeg" class="hidden-xs" alt="">
                 <ul class="button-panel">
-                    <li><a href="#place_vertu" class="btn btn-default" ><span data-i18n="nav.subnav.place_vertu"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--PLACE VERTU--></a></li>
-                    <li><a href="#leasing_information" class="btn btn-default"><span data-i18n="nav.subnav.leasing_information"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--PLACE VERTU--><!--LEASING INFORMATION--></a></li>
-                    <li><a href="#charities" class="btn btn-default"><span data-i18n="nav.subnav.charities"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--CHARITIES & NON-PROFIT --></a></li>
-                    <li><a href="#green_initiatives"  class="btn btn-default" ><span data-i18n="nav.subnav.green_initiatives"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--GREEN INITIATIVES--></a></li>
-                    <li><a href="#contract_policy" class="btn btn-default"><span>Contact Us</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"></a></li>
+                    <li><a href="#opening_hours" class="btn btn-default" ><span>Hours</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--PLACE VERTU--></a></li>
+                    <li><a href="#leasing_information" class="btn btn-default"><span>Leasing Information</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--PLACE VERTU--><!--LEASING INFORMATION--></a></li>
+                    <li><a href="#mall_info" class="btn btn-default"><span>Mall Info</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--CHARITIES & NON-PROFIT --></a></li>
+                    <li><a href="#accessibility"  class="btn btn-default" ><span>Accessibility</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--GREEN INITIATIVES--></a></li>
+                    <li><a href="#wifi" class="btn btn-default"><span>Wifi</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"></a></li>
+                     <li><a href="#contact_us" class="btn btn-default"><span>Contact Us</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"></a></li>
+               
                 </ul>
         </div>
     </div>
