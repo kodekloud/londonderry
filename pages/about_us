@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row ">
         <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3" id="right-content">
-            <h1 class="visible-xs" data-i18n="nav.about" style="padding-top: 40px; margin-top: -40px;"><!--About Us--></h1>
+            <h1 class="visible-xs" data-i18n="nav.about"><!--About Us--></h1>
             
             
             
@@ -372,7 +372,7 @@
         </div>
         <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9 " id="sidebar" >
             
-                <h1 class="hidden-xs" data-i18n="nav.about" style="padding-top: 40px; margin-top: -40px;"><!--About Us--></h1>
+                <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
                 <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/img_contactus.jpg" class="hidden-xs" alt="">
                 <ul class="button-panel">
                     <li><a href="#place_vertu" class="btn btn-default" ><span data-i18n="nav.subnav.place_vertu"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--PLACE VERTU--></a></li>
