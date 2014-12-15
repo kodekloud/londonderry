@@ -153,6 +153,7 @@
                    } else { // 200
                        $("#success_subscribe").fadeIn();
                       $("#subForm").fadeOut();
+                      $("#join_txt").fadeOut();
                    }
            });
        });
