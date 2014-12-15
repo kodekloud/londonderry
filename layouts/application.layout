@@ -612,9 +612,10 @@
         }
         
         //sticky sidebar
-        if(window.screen.width > 767){
-            console.log(window.screen.width);
-            jQuery(window).scroll(function(){ 
+        
+         if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)){
+        } else {
+                      jQuery(window).scroll(function(){ 
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
                 var sidebarHeight = $('#sidebar').height();
@@ -627,8 +628,13 @@
                     }
                 }
             });
+         }
+        
+        
+        
+
+  
              
-        } 
         
         
 
