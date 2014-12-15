@@ -7,7 +7,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" id="by_a_z">
-                              <span data-i18n="nav.stores"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png">
+                              <span data-i18n="nav.stores"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png">
                             </a>
                         </h4>
                     </div>
