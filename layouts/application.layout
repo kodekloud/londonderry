@@ -612,7 +612,7 @@
         }
         
         //sticky sidebar
-        if(window.screen.width < 767){
+        if(window.screen.width > 767){
             jQuery(window).scroll(function(){ 
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
