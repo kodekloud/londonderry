@@ -612,9 +612,9 @@
         }
         
         //sticky sidebar
-        console.log($(window).width() );
+
         if( $(window).width() < 767){
-            
+            console.log('hi');
             $('#sidebar').removeAttr('id');
             
             
