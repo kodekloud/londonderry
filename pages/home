@@ -110,9 +110,10 @@
                       </div>
                         <button class="btn btn-default feature-item-button"  data-i18n="general.submit"></button>
                        <br />
-                       <span id="success_subscribe" style="font-size:20px;padding:10px">Thank You!</span>
+                       
                    </form>
                 </div>
+                <span id="success_subscribe" style="font-size:20px;padding:10px">Thank You!</span>
             </div>
         </div>
     </div>
