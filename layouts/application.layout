@@ -349,57 +349,44 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../stores" data-i18n="nav.directory"></a>
+                        <a href="../stores">STORES</a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../promotions" data-i18n="nav.promotions"></a>
+                        <a href="../promotions">PROMOTIONS</a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../events" data-i18n="nav.events"></a>
+                        <a href="../events">EVENTS/NEWS</a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/services" >Services</a>
                         <ul class="under-nav" style="">
                             <li>
-                                <a href="/customer_services#gift_cards">Gift Cards</a>
+                                <a href="/customer_services#guest_service">Guest Service</a>
                             </li>
                             <li>
-                                <a href="/customer_services#customer_services">Customer Services</a>
+                                <a href="/customer_services#security">Security</a>
                             </li>
                             <li>
-                                <a href="/customer_services#fitness_walking_club">Fitness Walking Club</a>
-                            </li>
-                            <li>
-                                <a href="/customer_services#welcome_to_families">Welcome to Families</a>
-                            </li>
-                            <li>
-                                <a href="/customer_services#wifi">Wifi</a>
+                                <a href="/customer_services#mall_amenities">Mall Amenities</a>
                             </li>
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/jobs" data-i18n="nav.jobs"></a>
+                        <a href="/jobs">CAREERS</a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/about_us" data-i18n="nav.about"></a>
+                        <a href="/about_us">ABOUT US</a>
                         <ul class="under-nav">
-                            <li><a href="/about_us#place_vertu"  >Londonderry</a></li>
+                            <li><a href="/about_us#opening_hours">Hours</a></li>
                             <li><a href="/about_us#leasing_information" >Leasing Information</a></li>
-                            <li><a href="/about_us#charities" >Charities</a></li>
-                            <li><a href="/about_us#green_initiatives" >Green Initiatives</a></li>
-                            <li><a href="/about_us#contract_policy">Contract Policy</a></li>
+                            <li><a href="/about_us#mall_info" >Mall Info</a></li>
+                            <li><a href="/about_us#accessibility">Accessibility</a></li>
+                            <li><a href="/about_us#wifi">Wifi</a></li>
+                            <li><a href="/about_us#contact_us">Contact Us</a></li>
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/contact_us" data-i18n="nav.contact"></a>
-                        <ul class="under-nav">
-                            <li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
-                            <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
-                            <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
-                            <li><a href="/contact_us#opening_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
-                            <li><a href="/contact_us#administration_hours" class=""><span data-i18n="nav.subnav.administration_hours"></span><!--ADMINISTRATION HOURS--></a></li>
-                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
-                        </ul>
+                        <a href="/posts">BLOG</a>
                     </li>
                 </ul>
             </div>
