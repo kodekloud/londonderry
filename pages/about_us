@@ -84,7 +84,7 @@
          
             
             <!--Mall Info-->
-            <a class="anchor" name="leasing_information"></a>
+            <a class="anchor" name="mall_info"></a>
             <h2>Mall Info</h2>
             <div class="primary-locale">
             <!-- Leasing CONTENT BLOCK START-->    
@@ -155,7 +155,7 @@
            
             
             <!--Accessibility-->
-            <a class="anchor" name="charities"></a>
+            <a class="anchor" name="accessibility"></a>
             <h2>Accessibility</h2>
             <div class="primary-locale">
                 <!-- Charities CONTENT BLOCK START-->    
@@ -226,7 +226,7 @@
            
             
             <!--Community/Wi-Fi-->
-            <a class="anchor" name="green_initiatives"></a>
+            <a class="anchor" name="wifi"></a>
             <h2>Community/Wi-Fi</h2>
             <div class="primary-locale">
                 <!-- GREEN INITIATIVES CONTENT BLOCK START-->    
@@ -292,12 +292,12 @@
       });
   </script>
 </section>    
-<!-- GREEN INITIATIVES CONTENT BLOCK END -->
+<!-- WIFI CONTENT BLOCK END -->
             </div>
            
             
             <!--CONTACT US-->
-            <a class="anchor" name="contract_policy"></a>
+            <a class="anchor" name="contract_us"></a>
             <h2>CONTACT US</h2>
             <div class="primary-locale">
           <div style="min-height:350px">
