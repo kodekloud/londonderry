@@ -147,8 +147,8 @@ ul{
 
 .anchor{
   display: block;
-  height: 150px; /*same height as header*/
-  margin-top: -150px; /*same height as header*/
+  height: 140px; /*same height as header*/
+  margin-top: -140px; /*same height as header*/
   visibility: hidden;
 }
 
