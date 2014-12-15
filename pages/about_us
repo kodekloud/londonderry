@@ -1,17 +1,7 @@
 <style>
     
-    .sidebar-nav-fixed {
-   
- max-width:300px;
-    position: fixed;
-  
-    top: 150px;
 
-}
 
-.side-bar{
-   
-}
 </style>
 <script src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/0622c270dd8aaf2ba73a6c0fb42134b9/stickySidebar.js"></script>
 
