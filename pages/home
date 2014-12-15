@@ -142,7 +142,7 @@
            }
            e.preventDefault();
            $.getJSON(
-               console.log('test');
+               console.log('test'),
                this.action + "?callback=?",
                $(this).serialize(),
                function (data) {
