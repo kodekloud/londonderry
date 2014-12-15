@@ -309,7 +309,7 @@
                         <a href="../about_us" data-i18n="nav.about"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../posts" data-i18n="nav.contact"></a>
+                        <a href="../posts">Blog</a>
                     </li>
                     
                     <li class="page-scroll mobile-nav-social" style="">
