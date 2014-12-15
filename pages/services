@@ -229,7 +229,7 @@
             <h1 class="hidden-xs" data-i18n="nav.services"><!--Customer Services--></h1>
             <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3d2feb8fb67ca18031833e0a252090dd/7223_Londonderry_GuestServices2.jpeg" class="hidden-xs" alt="">
             <ul class="button-panel">
-                <li><a href="#gift_cards" class="btn btn-default"><span data-i18n="nav.subnav.gift_cards"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--GIFT CARDS--></a></li>
+                <li><a href="#guest_services" class="btn btn-default"><span>Guest Service</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--GIFT CARDS--></a></li>
                 <li><a href="#customer_services" class="btn btn-default"><span data-i18n="nav.subnav.customer_services"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--CUSTOMER SERVICES--></a></li>
                 <li><a href="#fitness_walking_club" class="btn btn-default"><span data-i18n="nav.subnav.fitness_walking_club"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--FITNESS WALKING CLUB--></a></li>
                 <li><a href="#welcome_to_families" class="btn btn-default"><span data-i18n="nav.subnav.welcome_to_families"></span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--WELCOME TO FAMILIES--></a></li>
