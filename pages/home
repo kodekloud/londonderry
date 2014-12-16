@@ -5,6 +5,9 @@
     .navbar{
         margin-bottom:0px;
     }
+    #loading{
+        margin-top:30px;
+    }
     
 </style>
 <div class="home">
