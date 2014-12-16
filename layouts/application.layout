@@ -66,11 +66,11 @@
     <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
     <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
     <script>
+        function close_popup(){
+            $(".hidden-popup-bg").fadeOut();
+        } 
         $(document).ready(function() {
-            function close_popup(){
-                console.log('calling');
-                $(".hidden-popup-bg").fadeOut();
-            } 
+       
             
             
              $.reject({  
