@@ -132,7 +132,7 @@
         }
   
     });
-    
+    console.log('hi');
     console.log(dateToString('2014-11-21'));
     function dateToString(dateString){
         var dateItem = dateString.split('-');
