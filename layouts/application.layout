@@ -175,6 +175,18 @@
 </head>
 
 <body id="page-top" class="index" >
+    <!-- popup form starts-->
+    <div class="hidden-popup-bg">
+        <div class="popup-header">
+           <p onclick="close_popup();" class="popup-close pull-right">X</p>
+       </div>
+       <div class="popup-body">
+            
+       </div>
+
+    </div>
+    <!-- popup form ends-->
+    
     <!-- Navigation -->
     <div id="body_content">
     <nav class="navbar navbar-default header-area">
