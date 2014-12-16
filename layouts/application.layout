@@ -65,6 +65,11 @@
     <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
     <script>
         $(document).ready(function() {
+            function close_popup(){
+                $(".hidden-popup-bg").fadeOut();
+            } 
+            
+            
              $.reject({  
                 reject: { all: false, msie: 9 },  
                 header: 'Thanks for visiting Londonderry', // Header Text  
