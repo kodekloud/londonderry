@@ -333,8 +333,8 @@ img{
 }
 
 .search-results a:hover{
-   
-    background-color:#FFF;
+   color:black;
+    background-color:#C0C0C0;
 
 }
 .search-results .header{
