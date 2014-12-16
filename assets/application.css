@@ -960,6 +960,9 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    .carousel{
+        width: 100%;
+    }
     h2.blogpost_title {
         padding: 10px;
     }
