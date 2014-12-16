@@ -427,13 +427,13 @@
                         <a href="/services" >Services</a>
                         <ul class="under-nav" style="">
                             <li>
-                                <a href="/customer_services#guest_service">Guest Service</a>
+                                <a href="/services#guest_service">Guest Service</a>
                             </li>
                             <li>
-                                <a href="/customer_services#security">Security</a>
+                                <a href="/services#security">Security</a>
                             </li>
                             <li>
-                                <a href="/customer_services#mall_amenities">Mall Amenities</a>
+                                <a href="/services#mall_amenities">Mall Amenities</a>
                             </li>
                         </ul>
                     </li>
