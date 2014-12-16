@@ -17,7 +17,7 @@
                
                 </ul>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3" id="right-content">
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
             <h1 class="visible-xs" data-i18n="nav.about"><!--About Us--></h1>
             
             
