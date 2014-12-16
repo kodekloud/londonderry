@@ -963,9 +963,10 @@ margin:0 auto;
 @media(max-width:767px){
     .fixed {
         position: fixed;
-        top: -5px;
+        top: 0;
         left: 0;
         width: 100%;
+        z-index:9999;
     }
     .carousel{
         width: 100%;
