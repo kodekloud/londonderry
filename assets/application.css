@@ -348,6 +348,12 @@ img{
     color:#FFF;
     font-size:15px;
 }
+.fixed {
+    position: fixed;
+    top: -5px;
+    left: 0;
+    width: 100%;
+}
 
 .search-results .description{
     color:#C0C0C0;
