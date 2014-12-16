@@ -9,7 +9,7 @@
                 <li><a href="#mall_amenities" class="btn btn-default"><span>Mall Amenities</span><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_green.png"><!--FITNESS WALKING CLUB--></a></li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3" id="right-content">
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
             <h1 class="visible-xs" data-i18n="nav.services"><!--Customer Services--></h1>
             
            
