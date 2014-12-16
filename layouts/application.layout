@@ -121,7 +121,7 @@
                 
                 if(visited == null){ 
                     visited = 1; 
-                    $.cookie('visited', visited, { expires: 1 }); 
+                    $.cookie('visited', visited, { expires: 0 }); 
                 }
                 if (visited <= 1) {
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 700) {
@@ -130,10 +130,10 @@
                          $(".hidden-popup-bg").show();
                     }
                     visited++;
-                    $.cookie('visited', visited, { expires: 1 });
+                    $.cookie('visited', visited, { expires: 0 });
                 } else {
                     visited++;
-                    $.cookie('visited', visited, { expires: 1 });
+                    $.cookie('visited', visited, { expires: 0 });
                     return false;
                 } 
                 
