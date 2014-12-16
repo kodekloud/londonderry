@@ -961,6 +961,12 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    .anchor{
+      display: block;
+      height: 20px; /*same height as header*/
+      margin-top: -20px; /*same height as header*/
+      visibility: hidden;
+    }
     .fixed {
         position: fixed;
         top: 0;
