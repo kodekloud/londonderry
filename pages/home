@@ -155,7 +155,7 @@
                        alert("Please try again later.");
                    } else { // 200
                        $("#success_subscribe").fadeIn().delay(5000).fadeOut();
-                      
+                        $("#fieldEmail").value('');
                       //$("#subForm").fadeOut();
                       //$("#join_txt").fadeOut();
                    }
