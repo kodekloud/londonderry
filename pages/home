@@ -155,8 +155,8 @@
                        alert("Please try again later.");
                    } else { // 200
                        $("#success_subscribe").fadeIn();
-                      $("#subForm").fadeOut();
-                      $("#join_txt").fadeOut();
+                      //$("#subForm").fadeOut();
+                      //$("#join_txt").fadeOut();
                    }
            });
        });
