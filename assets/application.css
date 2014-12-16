@@ -961,6 +961,9 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    #map{
+        border: 1px solid;
+    }
     .anchor{
       display: block;
       height: 50px; /*same height as header*/
