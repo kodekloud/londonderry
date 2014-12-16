@@ -143,7 +143,7 @@
         var dateItem = dateString.split('-');
         var dateFormat = new Date(dateItem[0], dateItem[1]-1, dateItem[2]);
       
-        return dateFormat.getMonth();
+        return  monthNames[dateFormat.getMonth()];
     }
     
 </script>
