@@ -325,7 +325,7 @@
             
             <!-- /.navbar-collapse -->
         </div>
-        <div class="container nav-items visible-xs mobile-nav">
+        <div class="container nav-items visible-xs mobile-nav fixed">
             
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
