@@ -136,9 +136,11 @@
                         event.stopPropagation();
                     }
                 });
+                
                 $(".hidden-popup-bg .hidden-popup-form").click(function(event){
                     event.stopPropagation();
-                });     
+                }); 
+                
             }
             
         });
