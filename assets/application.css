@@ -218,6 +218,34 @@ img{
     
     
 }
+
+/*popup form starts*/
+
+.hidden-popup-bg {
+   background-color:rgba(0, 0, 0, 0.65);
+   height:100%;
+   width:100%;
+   position:fixed;
+   z-index:999999999;
+   display:none;
+}
+
+.popup-close{
+    cursor:pointer;
+}
+
+.hidden-popup-form{
+   background:none repeat scroll 0 0 #fff;
+   border: 6px solid #000;
+   margin: 7% auto;
+   width:500px;
+   
+   
+}
+
+/*popup form ends*/
+
+
 .carousel{
     margin: 0 auto;
     position: relative;
