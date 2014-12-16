@@ -43,7 +43,6 @@ background-color: #FFFFFF ;
                 <img src="{{store_front_image_url}}">
                 <ul>
                     <li style="text-align:center"><h1>{{phone}}</h1></li>
-                    <li><a href="/about_us#opening_hours" class="btn btn-default">HOURS</a></li>
                     <li><a style="width:100%" href="http://{{website}}" target="_blank" class="btn btn-default">VISIT WEBSITE</a></li>
                 </ul>
             </script>
