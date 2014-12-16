@@ -154,7 +154,8 @@
                        console.log(data);
                        alert("Please try again later.");
                    } else { // 200
-                       $("#success_subscribe").fadeIn();
+                       $("#success_subscribe").fadeIn().delay(5000).fadeOut();
+                      
                       //$("#subForm").fadeOut();
                       //$("#join_txt").fadeOut();
                    }
