@@ -229,7 +229,12 @@ img{
    z-index:999999999;
    display:none;
 }
-
+.popup-header{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    
+}
 .popup-close{
     cursor:pointer;
 }
