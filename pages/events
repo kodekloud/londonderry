@@ -136,7 +136,7 @@
     var monthNames = [ "Jan", "Feb", "Mar", "Apㄱ", "May", "Jun",
     "Jul", "Aug", "Sept", "Oct", "Nov", "Dec" ];
     
-    monthNames[d.getMonth()]);
+  
 
     console.log(dateToString('2014-11-21'));
     function dateToString(dateString){
