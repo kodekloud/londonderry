@@ -381,7 +381,10 @@ img{
     color:#000;
     min-width:220px;
 }
-
+.giftcard_page{
+    max-width:975px;
+    margin:0 auto;
+}
 .mobile-search-nav-item{
     padding-top: 10px;
     padding-bottom: 10px;
