@@ -98,8 +98,9 @@
                       
                     },
                     onMonthChange: function(month) {
-                      $('.clndr-previous-button').html("<");
-                      $('.clndr-next-button').html(">");
+                           $('.clndr-previous-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/6540f7b91971edbf439f2ff0d183c3fa/arrow_white_2.png" class="" alt="">');
+            $('.clndr-next-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png" class="" alt="">');
+        
                     }
                   },
                   doneRendering: function() {
@@ -107,10 +108,10 @@
                   }
             });
             
-            $('.clndr-previous-button').html("<");
+           // $('.clndr-previous-button').html("<");
             // $('.clndr-next-button').html(">");
-             
-            $('.clndr-next-button').html('<img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png" class="" alt="">');
+              $('.clndr-previous-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/6540f7b91971edbf439f2ff0d183c3fa/arrow_white_2.png" class="" alt="">');
+            $('.clndr-next-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png" class="" alt="">');
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
             
