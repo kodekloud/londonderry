@@ -929,6 +929,9 @@ margin:0 auto;
     .blogpost_header {
         margin-left:0px;
     }
+    .promo-detail-img{
+        text-align:center;
+    }
     .signature-item{
         float:none !important;
     }
