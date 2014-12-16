@@ -923,6 +923,9 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    h2.blogpost_title {
+        padding: 10px;
+    }
     .signature-item{
         float:none !important;
     }
