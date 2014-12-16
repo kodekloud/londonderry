@@ -194,7 +194,7 @@
     
     <!-- Navigation -->
     <div id="body_content">
-    <nav class="navbar navbar-default header-area">
+    <nav class="navbar navbar-default header-area fixed">
         <div class="visible-xs" style="position:absolute;left:5px;top:5px">
                 <a href="../home"><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/d829440f38892d3ed941e8590346a378/logo4.jpg" alt="site logo"></a>
         </div>
@@ -325,7 +325,7 @@
             
             <!-- /.navbar-collapse -->
         </div>
-        <div class="container nav-items visible-xs mobile-nav fixed">
+        <div class="container nav-items visible-xs mobile-nav">
             
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
