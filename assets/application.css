@@ -228,6 +228,7 @@ img{
    position:fixed;
    z-index:999999999;
    display:none;
+   top:0;
 }
 .popup-header{
     z-index:100;
