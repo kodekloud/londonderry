@@ -243,6 +243,14 @@ img{
    
 }
 
+.popup-body{
+    padding:20px;
+}
+
+.popup-body img{
+    width:550px;
+    height:474px;
+}
 /*popup form ends*/
 
 
