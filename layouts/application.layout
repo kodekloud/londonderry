@@ -68,6 +68,7 @@
     <script>
         $(document).ready(function() {
             function close_popup(){
+                console.log('calling');
                 $(".hidden-popup-bg").fadeOut();
             } 
             
