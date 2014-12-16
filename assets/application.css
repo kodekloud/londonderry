@@ -963,8 +963,8 @@ margin:0 auto;
 @media(max-width:767px){
     .anchor{
       display: block;
-      height: 40px; /*same height as header*/
-      margin-top: -40px; /*same height as header*/
+      height: 50px; /*same height as header*/
+      margin-top: -50px; /*same height as header*/
       visibility: hidden;
     }
     .fixed {
