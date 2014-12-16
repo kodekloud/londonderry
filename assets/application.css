@@ -238,14 +238,12 @@ img{
    background:none repeat scroll 0 0 #fff;
    border: 6px solid #000;
    margin: 7% auto;
-   width:500px;
+   width:570px;
+   height:474px;
    
    
 }
 
-.popup-body{
-    padding:20px;
-}
 
 .popup-body img{
     width:550px;
