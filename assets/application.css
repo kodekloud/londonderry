@@ -967,6 +967,7 @@ margin:0 auto;
         left: 0;
         width: 100%;
         z-index:9999;
+        margin-bottom:20px;
     }
     .carousel{
         width: 100%;
