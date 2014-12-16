@@ -98,8 +98,8 @@ background-color: #FFFFFF ;
                                 <p>{{ description }}</p>
                             </div>
                             <div class="social-links">
-                                <span><a href="#" target="_blank"><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/251f914efb0a8216e2cd28dd4834e614/share_fb.png"></a></span>
-                                <span><a href="#" target="_blank"><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/251f914efb0a8216e2cd28dd4834e614/share_twit.png"></a></span>
+                                <span><a href="#" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/facebook-Icon.png"></a></span>
+                                <span><a href="#" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/Twitter-Icon.png"></a></span>
                             </div>
                             </div>
                     </li>
