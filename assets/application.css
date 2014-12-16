@@ -926,6 +926,9 @@ margin:0 auto;
     h2.blogpost_title {
         padding: 10px;
     }
+    .blogpost_header {
+        margin-left:0px;
+    }
     .signature-item{
         float:none !important;
     }
