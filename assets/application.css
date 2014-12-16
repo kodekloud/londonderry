@@ -968,7 +968,13 @@ margin:0 auto;
 
 
 @media(max-width:767px){
-   
+    body{
+        font-size:16px;
+    }
+    .description p{
+        overflow:visible;
+        height:auto;
+    }
     .popup-header{
         z-index:100;
         position:absolute;    
