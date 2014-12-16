@@ -136,7 +136,7 @@
     console.log(dateToString('2014-11-21'));
     function dateToString(dateString){
         var dateItem = dateString.split('-');
-        var dateFormat = new Date(, dateItem[1]-1, dateItem[2]);
+        var dateFormat = new Date('', dateItem[1]-1, dateItem[2]);
       
         return dateFormat.toDateString();
     }
