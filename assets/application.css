@@ -929,7 +929,7 @@ margin:0 auto;
     .blogpost_header {
         margin-left:0px;
     }
-    .promo-detail-img{
+    .promo-detail-img, .event-image{
         text-align:center;
     }
     .signature-item{
