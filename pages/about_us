@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="row ">
-       <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9 " id="sidebar" >
+       <div class="col-xs-12 col-sm-4 col-md-3 " id="sidebar" >
             
                 <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
                 <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3d2feb8fb67ca18031833e0a252090dd/7223_Londonderry_AboutUs2.jpeg" class="hidden-xs" alt="">
