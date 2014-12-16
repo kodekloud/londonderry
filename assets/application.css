@@ -1161,6 +1161,7 @@ margin:0 auto;
 .cal1 .clndr .clndr-table .header-days {
   height: 30px;
   font-size: 15px;
+  color:#88c54c;
 }
 .cal1 .clndr .clndr-table .header-days .header-day {
   vertical-align: middle;
