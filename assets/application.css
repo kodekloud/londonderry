@@ -961,6 +961,28 @@ margin:0 auto;
 
 
 @media(max-width:767px){
+    .popup-header{
+        z-index:100;
+        position:absolute;    
+        color:white;
+        font-size: 18px;
+        margin-left: 280px;
+        margin-top: 10px;
+    }
+    
+    .hidden-popup-form{
+       margin: 7% auto;
+       width:300px;
+       height:420px;
+    }
+    
+    
+    .popup-body img{
+        width:300px;
+        height:420px;
+    }
+    
+    
     .map_content{
         border: 1px solid;
     }
