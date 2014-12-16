@@ -37,3 +37,8 @@ The relevant Alberta Government FAQS are reproduced below:</p>
 <br />
 The complete FAQs can be found at the Albert Government website at: <u><a href="http://www.servicealberta.gov.ab.ca">www.servicealberta.gov.ab.ca</a></u></p>
 </div>
+
+<script>
+    $('#loading').hide();
+    $('#page_content').show();
+</script>
