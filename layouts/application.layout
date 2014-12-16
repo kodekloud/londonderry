@@ -125,7 +125,7 @@
                 }
                 if (visited <= 1) {
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 700) {
-                        $(".hidden-popup-bg").hide();
+                        $(".hidden-popup-bg").show();
                     }else{
                          $(".hidden-popup-bg").show();
                     }
@@ -178,7 +178,7 @@
 <body id="page-top" class="index" >
     <!-- popup form starts-->
     <div class="hidden-popup-bg">
-        <div class="hidden-popup-form hidden-phone">
+        <div class="hidden-popup-form">
             <div class="popup-header">
                <p onclick="close_popup();" class="popup-close pull-right">X</p>
             </div>
