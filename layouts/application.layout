@@ -443,12 +443,13 @@
                     <li class="page-scroll" style="">
                         <a href="/about_us">ABOUT US</a>
                         <ul class="under-nav">
-                            <li><a href="/about_us#opening_hours">Hours</a></li>
+                            
                             <li><a href="/about_us#leasing_information" >Leasing Information</a></li>
                             <li><a href="/about_us#mall_info" >Mall Info</a></li>
                             <li><a href="/about_us#accessibility">Accessibility</a></li>
                             <li><a href="/about_us#wifi">Wifi</a></li>
                             <li><a href="/about_us#contact_us">Contact Us</a></li>
+                            <li><a href="/about_us#opening_hours">Hours</a></li>
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
