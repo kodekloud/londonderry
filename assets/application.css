@@ -623,6 +623,13 @@ padding-top: 5px;
     border-width:2px;
 }
 
+.btn-default:hover {
+    color: #FFF;
+    background-color: #88c54c;
+    border-color:#88c54c;
+    
+}
+
 .button-panel a:hover {
     background-color:#88c54c;
     color:#FFF;
