@@ -10,7 +10,7 @@
     <meta name="description" content="{{meta_description}}">
     <meta name="keywords" content="{{meta_keywords}}">
     <meta name="author" content="">
-
+icon_
     <title>{{meta_title}}</title>
     
     <script>
@@ -468,7 +468,7 @@
         <div class="col-md-2"></div>
                 <div class="col-md-2">
                     <div class="pull-left">
-                        <img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
+                        
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -505,7 +505,7 @@
                        
            
                  
-                        <p id="center_signature" style="text-align:center; color:white;"> <img style="margin-right:10px;" class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/icon_wifi.png" >
+                        <p id="center_signature" style="text-align:center; color:white;"> 
                     2014 Londonderry All Rights Reserved</p>
                        
                         <span class="signature-item" >
