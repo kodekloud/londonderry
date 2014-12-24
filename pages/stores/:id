@@ -40,7 +40,7 @@ background-color: #FFFFFF ;
             <!-- START MUSTACHE TEMPLATE FOR STORE DETAILS-->
             <script id="store_details_template1" type="x-tmpl-mustache">
                 <h1>{{name}}</h1>
-                <img src="{{store_front_url}}">
+                <img style="width:100%;" src="{{store_front_url}}">
                 <ul>
                     <li style="text-align:center"><h1>{{phone}}</h1></li>
                     <li><a style="width:100%" href="http://{{website}}" target="_blank" class="btn btn-default">VISIT WEBSITE</a></li>
