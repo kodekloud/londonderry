@@ -151,6 +151,12 @@ ul{
     margin-right: auto;
     margin-left: auto;
 }
+.renovation-list{
+    list-style-type:disc;
+}
+.renovation-list li{
+    margin-left:15px;
+}
 .anchor{
   display: block;
   height: 60px; /*same height as header*/
