@@ -322,6 +322,9 @@
                     <li class="page-scroll" style="">
                         <a href="../posts">Blog</a>
                     </li>
+                      <li class="page-scroll" style="">
+                        <a href="../renovation">Renovation</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -383,7 +386,9 @@
                     <li class="page-scroll" style="">
                         <a href="../posts">Blog</a>
                     </li>
-                    
+                      <li class="page-scroll" style="">
+                        <a href="../renovation">Renovation</a>
+                    </li>
                     <li class="page-scroll mobile-nav-social" style="">
                         <a href="https://www.facebook.com/londonderry" target="_blank"><img class="image" style="width:40px" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/facebook-Icon.png" ></a>
                         <a href="https://twitter.com/LondonderryMall" target="_blank"><img class="image" style="width:40px" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/1bbcfc461e8dcfcf1f66615354505ab5/Twitter-Icon.png" ></a>
@@ -458,6 +463,9 @@
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/posts">BLOG</a>
+                    </li>
+                      <li class="page-scroll" style="">
+                        <a href="/renovation">Renovation</a>
                     </li>
                 </ul>
             </div>
