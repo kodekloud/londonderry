@@ -188,7 +188,8 @@ background-color: #FFFFFF ;
             checkErrorPage(store_details);
             store_details.map_x_coordinate = store_details.x_coordinate - 19;
             store_details.map_y_coordinate = store_details.y_coordinate - 58;
-
+            
+            store_details.store_front_url = changeStoreImgUrl(store_details);
             renderStoreDetailsTemplate('#store_details_template1','#store_details1',store_details);
             renderStoreDetailsTemplate('#store_details_template2','#store_details2',store_details);
             renderStoreDetailsTemplate('#store_deatils_map_template','#store_map',store_details);
@@ -231,7 +232,14 @@ background-color: #FFFFFF ;
             }
         }
 
-
+        function changeStoreImgUrl(storeObj){
+            if(storeObj.store_front_url.indexOf("/store_fronts/original/missing.png") > -1 ){
+             
+               return "http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/bc66d880720f58f49b267ae6fb920f74/default.jpg";
+            } else {
+                 return "http://cdn.mallmaverick.com" + storeObj.store_front_url;
+            }
+        }
      
         
     });
