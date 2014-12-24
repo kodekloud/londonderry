@@ -144,7 +144,13 @@ ul{
     list-style-type: circle;
 }
 
-
+.renovation-container{
+    width:970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .anchor{
   display: block;
   height: 60px; /*same height as header*/
