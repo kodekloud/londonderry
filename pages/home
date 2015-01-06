@@ -224,9 +224,17 @@ function findClosestHoliday(hours){
             holiday_list.push(val);
         }
     });
-    holiday_list.sort();
+    holiday_list.sort(sortByHolidayDate);
+    
     console.log(holiday_list);
 }
+    
+function sortByHolidayDate(a, b){
+    var aDate = a.holiday_date;
+    var bDate = b.holiday_date;
+
+    return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));  
+}    
     
 function renderIndicator(indicator_template, home_indicator, repo){
     
