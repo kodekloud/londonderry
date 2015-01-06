@@ -200,21 +200,6 @@ function renderBanner(banner_template, home_banner, repo){
     $('.item').first().addClass('active');
 }
 
-function testCompare(){
-    if ('2015-01-02' < '2015-01-03'){
-        console.log('1 pass');   
-    }
-    if ('2015-01-02' > '2015-01-03'){
-        console.log('2 pass');   
-    }
-    if ('2014-01-02' < '2015-01-03'){
-        console.log('3 pass');   
-    }
-    if ('2014-01-02' > '2015-01-03'){
-        console.log('4 pass');   
-    }
-}
-
 function findClosestHoliday(hours){
     var holiday_list = [];
     
