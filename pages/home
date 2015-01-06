@@ -220,7 +220,7 @@ function findClosestHoliday(hours){
     today = yyyy+'-'+mm+'-'+dd;
     
     $.each( hours , function( key, val ) {
-        if(val.is_holiday && holiday_date > today){
+        if(val.is_holiday && val.holiday_date > today){
             holiday_list.push(val);
         }
     });
