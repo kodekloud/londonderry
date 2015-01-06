@@ -126,6 +126,7 @@
         function renderPageData(){
             //console.log('rendering page data');
             renderHolidayHours('#holiday_hours_template','#holiday-hours','#hours_not_empty_section_id','#hours_empty_section_id',getPropertyHours(),2);
+            findClosestHoliday(getPropertyHours());
             renderTodaysHours('#todays_hours_template','#todays-hours');
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
@@ -137,7 +138,7 @@
         }
         loadMallData(renderPageData);
         
-        testCompare();
+       
         $('#subForm').submit(function (e) {
            if ($("#agree_terms").prop("checked") != true){
                alert("Please agree to the term and conditions.");
