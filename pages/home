@@ -201,7 +201,13 @@ function renderBanner(banner_template, home_banner, repo){
 }
 
 function findClosestHoliday(hours){
+    $.each( hours , function( key, val ) {
+        if(val.is_holiday && !is_closed){
+        
+        }
+     
     
+    });
 }
     
 function renderIndicator(indicator_template, home_indicator, repo){
