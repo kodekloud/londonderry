@@ -210,7 +210,7 @@ function testCompare(){
     if ('2014-01-02' < '2015-01-03'){
         console.log('3 pass');   
     }
-    if ('2015-01-02' > '2015-01-03'){
+    if ('2014-01-02' > '2015-01-03'){
         console.log('4 pass');   
     }
 }
