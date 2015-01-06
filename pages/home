@@ -137,7 +137,7 @@
         }
         loadMallData(renderPageData);
         
-        
+        testCompare();
         $('#subForm').submit(function (e) {
            if ($("#agree_terms").prop("checked") != true){
                alert("Please agree to the term and conditions.");
@@ -198,6 +198,21 @@ function renderBanner(banner_template, home_banner, repo){
     $(home_banner).show();
     $(home_banner).html(item_rendered.join(''));
     $('.item').first().addClass('active');
+}
+
+function testCompare(){
+    if ('2015-01-02' < '2015-01-03'){
+        console.log('1 pass');   
+    }
+    if ('2015-01-02' > '2015-01-03'){
+        console.log('2 pass');   
+    }
+    if ('2014-01-02' < '2015-01-03'){
+        console.log('3 pass');   
+    }
+    if ('2015-01-02' > '2015-01-03'){
+        console.log('4 pass');   
+    }
 }
 
 function findClosestHoliday(hours){
