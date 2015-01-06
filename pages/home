@@ -199,6 +199,10 @@ function renderBanner(banner_template, home_banner, repo){
     $(home_banner).html(item_rendered.join(''));
     $('.item').first().addClass('active');
 }
+
+function findClosestHoliday(hours){
+    
+}
     
 function renderIndicator(indicator_template, home_indicator, repo){
     
