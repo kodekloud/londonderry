@@ -202,12 +202,11 @@ function renderBanner(banner_template, home_banner, repo){
 
 function findClosestHoliday(hours){
     var holiday_list = [];
+    
     $.each( hours , function( key, val ) {
         if(val.is_holiday){
             
         }
-     
-    
     });
 }
     
