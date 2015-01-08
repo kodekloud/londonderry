@@ -1,0 +1,150 @@
+<div class="container promotions">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-3" id="sidebar">
+            <h1 data-i18n="nav.events"></h1>
+            <center id="cal1" class="cal1">
+                <div class="date" id="clndr"></div>
+            </center>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
+            <div id="events_not_empty_section">
+                
+                <ul class="promotion-list" id="events_list">
+                    <h2 data-i18n="general.loading_events"></h2>
+                    <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                    <script id="event_item_template" type="x-tmpl-mustache">
+                        <li class="promotion-list-item row">
+                            <div class="promo-image col-xs-3">
+                                <a href="../events/{{ slug }}">
+                                    <img src="{{event_image_url_abs}}" style="width:100%">
+                                </a>
+                            </div>
+                            <div class="promo-details col-xs-9">
+                                <div class="name">
+                                    <h3>
+                                        <a href="../events/{{ slug }}">{{ name }}</a>
+                                    </h3>
+                                </div>
+                                <div class="dates">
+                                    {{ start_date }} <span data-i18n="general.to"></span> {{ end_date }}
+                                </div>
+                                <div class="description">
+                                    <p>{{ description }} </p>
+                                </div>
+                                <div class="social-links">
+                                    <span><a href="http://www.facebook.com/sharer.php?u=http://londonderrymall.com/events/{{slug}}" target="_blank">
+                                        <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3dde114989a7fcfddac2cc3f1341764a/facebook.png" class="" alt="">
+                                    </a></span>
+                                    <span><a href="http://twitter.com/?status={{name}}%20%20http://londonderrymall.com/events/{{slug}}" target="_blank">
+                                        <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3dde114989a7fcfddac2cc3f1341764a/twitter.png" class="" alt="">
+                                    </a></span>
+                                </div>
+                            </div>
+                        </li>
+                    </script>
+                    
+                    <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITHOUT AN IMAGE-->
+                    <script id="event_item_template_no_image" type="x-tmpl-mustache">
+                        <li class="promotion-list-item row">
+                            <div class="promo-details col-xs-12">
+                                <div class="name">
+                                    <h3>
+                                        <a href="../events/{{ slug }}">{{ name }}</a>
+                                    </h3>
+                                </div>
+                                <div class="dates">
+                                    {{ start_date }} <span data-i18n="general.to"></span> {{ end_date }}
+                                </div>
+                                <div class="description">
+                                    <p>{{ description }}</p>
+                                </div>
+                                <div class="social-links">
+                                    <span><a href="http://www.facebook.com/sharer.php?u=http://londonderrymall.com/events/{{slug}}" target="_blank">
+                                        <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3dde114989a7fcfddac2cc3f1341764a/facebook.png" class="" alt="">
+                                    </a></span>
+                                    <span><a href="http://twitter.com/?status={{name}}%20%20http://londonderrymall.com/events/{{slug}}" target="_blank">
+                                        <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/3dde114989a7fcfddac2cc3f1341764a/twitter.png" class="" alt="">
+                                    </a></span>
+                                </div>
+                            </div>
+                        </li>
+                    </script>
+                    <!-- END MUSTACHE TEMPLATE FOR EVENT ITEM-->
+                </ul>  
+            </div>
+            <div id="events_empty_section" style="display:none">
+                <h2 data-i18n="general.no_events"></h2>
+            </div>
+        </div>
+ 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        
+        function renderPageData(){
+            //renders the events list by referencing the template id and the html id
+            //for where to place the rendered content. See mallmaverick.js for implementation
+            renderEventsListTemplate('#event_item_template','#event_item_template_no_image','#events_list','#events_not_empty_section','#events_empty_section',getEventsList());
+            //$(document).i18n();
+            //please see http://kylestetz.github.io/CLNDR/
+            $('#clndr').clndr({
+                events:getEventsList(),
+                  multiDayEvents: {
+                    startDate: 'start_date',
+                    endDate: 'end_date'
+                  },
+                  clickEvents: {
+                    click: function(target) {
+                      
+                    },
+                    onMonthChange: function(month) {
+                        $('.clndr-previous-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/6540f7b91971edbf439f2ff0d183c3fa/arrow_white_2.png" class="" alt="">');
+                        $('.clndr-next-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png" class="" alt="">');
+                    }
+                  },
+                  doneRendering: function() {
+                    
+                  }
+            });
+            
+           // $('.clndr-previous-button').html("<");
+            // $('.clndr-next-button').html(">");
+              $('.clndr-previous-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/6540f7b91971edbf439f2ff0d183c3fa/arrow_white_2.png" class="" alt="">');
+            $('.clndr-next-button').html('<img style="width:10px;" src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/efe6c3ca0d8b7c35dc70c11b3c667cdf/arrow_white.png" class="" alt="">');
+            $('#loading').hide();
+            $('#page_content').fadeIn('fast');
+            
+        }
+        
+        loadMallData(renderPageData);
+    });
+    jQuery(window).scroll(function(){ 
+        var navHeight = $('nav').height();
+        var windowTop = $(window).scrollTop() - navHeight; 
+        var sidebarHeight = $('#sidebar').height();
+        var contentHeight = $('#right-content').height();
+        if(sidebarHeight + windowTop < contentHeight){
+            if ($(window).scrollTop() > 140) {
+                jQuery('#sidebar').css('top',windowTop); 
+            }else{
+                jQuery('#sidebar').css('top',0);
+            }
+        }
+  
+    });
+
+    var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sept", "Oct", "Nov", "Dec" ];
+    
+  
+
+    function dateToString(dateString){
+        var dateItem = dateString.split('-');
+        var dateFormat = new Date(dateItem[0], dateItem[1]-1, dateItem[2]);
+      
+        return  monthNames[dateFormat.getMonth()];
+    }
+    
+</script>
