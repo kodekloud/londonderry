@@ -28,9 +28,9 @@
 }
      
 .dropdown-menu{
-    left:45px;
-    background-color: #000000;
-    color: #ffffff;
+    left:45px !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
 }     
      
 #pop-over{
