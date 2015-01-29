@@ -27,11 +27,7 @@
    fill:   #66FFFF;
 }
      
-.dropdown-menu {
-    left:45px !important;
-    background-color: #000000 !important;
-    color: #ffffff !important;
-}     
+   
      
 #pop-over{
     position:absolute;
