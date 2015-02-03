@@ -17,7 +17,6 @@
         }
         loadMallData(renderPageData);
 
-
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     });
