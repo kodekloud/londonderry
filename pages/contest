@@ -32,7 +32,7 @@
             console.log(val);
             if( val.name == "contest"){
                 $.each( val , function( key, val ) {  
-                    console.log(val);
+                    //console.log(val);
                 });
                 
        
