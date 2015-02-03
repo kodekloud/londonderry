@@ -105,7 +105,10 @@
     }
     
     function validateForm() {
-        
+        var values = {};
+        $.each($('#contest_form').serializeArray(), function(i, field) {
+            values[field.name] = field.value;
+        });
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
