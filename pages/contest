@@ -30,16 +30,20 @@
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                item_list.push(val);
+                $.each( val , function( key, val ) {  
+                    console.log(val);
+                });
+                
+       
             }
         });
        
        
-        $.each( item_list , function( key, val ) {
-           console.log(val);
-            var repo_rendered = Mustache.render(contest_template_html,val);
-            item_rendered.push(repo_rendered);
-        });
+        // $.each( item_list , function( key, val ) {
+        //   console.log(val);
+        //     var repo_rendered = Mustache.render(contest_template_html,val);
+        //     item_rendered.push(repo_rendered);
+        // });
       
        
         $(contest_image).show();
