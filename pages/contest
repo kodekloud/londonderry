@@ -8,39 +8,39 @@
             </div>
             <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
             
-                    <div class="col-xs-6">
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" class="" name="" value="" />
-                    </div>
-                    <div class="col-xs-6">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" class="" name="" value=""/>
-                    </div>
-                    <div class="col-xs-6">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" class="form_entry" name="contest[email]" value=""/>
-                    </div>
-                    <div class="col-xs-6">
-                        <label for="phone">Phone Number</label>
-                        <input type="text" id="phone" class="form_entry" name="contest[phone]" value=""/>
-                    </div>
-                    <div class="col-xs-3">
-                        <label for="postal_code">Postal Code</label>
-                        <input type="text" id="postal_code" name="contest[postal_code]" value=""/>
-                    </div>
-                    <div class="col-xs-3">
-                        <label for="age">Age</label>
-                        <input type="text" id="age" name="contest[age]"  value=""/>
-                    </div>
-                       
-                    <div class="col-xs-6">
-                        <label for="gender">Gender</label>
-                        <select id="gender" name="contest[gender]">
-                            <option value="">Choose</option>
-                            <option value="female">Female</option>
-                            <option value="male">Male</option>
-                        </select>
-                    </div>                
+                <div class="form-group col-xs-6">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" class="" name="" value="" />
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" class="" name="" value=""/>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="form_entry" name="contest[email]" value=""/>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" class="form_entry" name="contest[phone]" value=""/>
+                </div>
+                <div class="form-group col-xs-3">
+                    <label for="postal_code">Postal Code</label>
+                    <input type="text" id="postal_code" name="contest[postal_code]" value=""/>
+                </div>
+                <div class="form-group col-xs-3">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="contest[age]"  value=""/>
+                </div>
+                   
+                <div class="form-group col-xs-6">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="contest[gender]">
+                        <option value="">Choose</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                </div>                
                 <div class="">          
                     <label for="mall_info" style="display:none">Subscribe to STC Newsletter</label>
                     <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]" />
