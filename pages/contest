@@ -151,6 +151,7 @@
         } else {
             var full_name = $("#first_name").val() + " " + $("#last_name").val();
             $("#full-name").val(full_name);
+            $("#gender-hidden").val($("#gender").val());
             return true;
         }
     }
