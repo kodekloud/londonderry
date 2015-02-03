@@ -13,7 +13,8 @@
 </div>
 <script>
     $(document).ready(function() {
-        renderContest("contest_template", "contest_image", );
+        var repoList = getRepoList();
+        renderContest("contest_template", "contest_image", repoList);
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     });
