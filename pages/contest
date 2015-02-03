@@ -103,6 +103,8 @@
     }
     
     function validateForm() {
+        alert($("#agree_terms").prop("checked"));
+        
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
