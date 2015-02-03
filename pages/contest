@@ -65,7 +65,7 @@
                 <div class="col-xs-12 checkbox-agree">
                     <label><input type="checkbox" id="agree_terms"> I understand the Londonderry Online <a href="/privacy_policy" target="_blank"><u>Privacy Policy</u></a></label>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 contest-submit-btn">
                     <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:325px; height: 45px;">
                 </div>
             </form>
