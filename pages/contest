@@ -1,0 +1,13 @@
+<div class="contest-container">
+    <div class="row">
+        <div class="col-xs-12">
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('#loading').hide();
+        $('#page_content').fadeIn('fast');
+    });
+</script>
