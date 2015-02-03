@@ -1131,6 +1131,9 @@ margin:0 auto;
 }
 
 @media(min-width:768px){
+    .contest-submit-btn{
+        text-align: center;
+    }
     .navbar-nav > li{
         padding-left:2px;
         padding-right:2px;
