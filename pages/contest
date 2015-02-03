@@ -53,9 +53,9 @@
                         <option value="male">Male</option>
                     </select>
                 </div>                
-                <div class="">          
+                <div class="form-group">          
                     <label for="mall_info" style="display:none">Subscribe to STC Newsletter</label>
-                    <input class="" id="mall_info" type="checkbox" name="contest[newsletter]" />
+                    <input class="form-control" id="mall_info" type="checkbox" name="contest[newsletter]" />
                     <span>Subscribe to STC Newsletter</span>
                 </div> 
             </form>
