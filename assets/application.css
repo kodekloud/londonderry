@@ -164,6 +164,10 @@ ul{
     border: 1px solid #000000;
 }
 
+.checkbox-subscribe{
+    margin-top:20px;
+}
+
 .renovation-list{
     list-style-type:disc;
 }
