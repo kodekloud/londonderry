@@ -38,7 +38,7 @@
         $.each( item_list , function( key, val ) {
            console.log(val);
             var repo_rendered = Mustache.render(contest_template_html,val);
-            tem_rendered.push(repo_rendered);
+            contest_template_html.push(repo_rendered);
         });
       
        
