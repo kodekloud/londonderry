@@ -62,6 +62,8 @@
             </form>
             <div class="col-xs-12">
                 <label><input type="checkbox" id="agree_terms"> I understand the Scarborough Town Center Online <a href="/pages/stc-privacy-policy" target="_blank"><u>Privacy Policy</u></a></label>
+                <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:325px; height: 45px;">
+                
             </div>
     </div>
 </div>
