@@ -18,7 +18,7 @@
             <hr class="break-line"/>
         </div> 
        
-           <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
+           <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form">
                 
                 <div class="form-group col-md-6">
                     <label for="first_name">*First Name</label>
