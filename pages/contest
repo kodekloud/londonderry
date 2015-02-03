@@ -103,7 +103,7 @@
     }
     
     function validateForm() {
-        alert($("#age").val());
+        alert(isNumber($("#age").val()));
         return false;
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
@@ -140,7 +140,7 @@
         } 
     }
     function isNumber(age){
-        var re = age.isNaN();
+        var re = isNaN(age);
         return re;
     }
     function isValidEmailAddress(email) { 
