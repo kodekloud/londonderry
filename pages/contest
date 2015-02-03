@@ -1,7 +1,13 @@
 <div class="contest-container">
     <div class="row">
         <div class="col-xs-12">
-            
+            <div class="" id="contest_image">
+                <script id="contest_template" type="x-tmpl-mustache">
+                    <div class="item">
+                        <img alt="..." src="{{photo_url_abs}}">
+                    </div>
+                </script>
+            </div>
         </div>
     </div>
 </div>
