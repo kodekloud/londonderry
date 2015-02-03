@@ -59,7 +59,7 @@
                         Subscribe to Londonderry Newsletter
                     </label>
                 </div> 
-                <div class="col-xs-12">
+                <div class="col-xs-12 captcha-box">
                     <div class="g-recaptcha" data-sitekey="6LcHbgETAAAAAEBggsqVkerFq4psw6l4jgTqGpVt"></div>
                 </div>
                 <div class="col-xs-12 checkbox-agree">
