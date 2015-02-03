@@ -26,9 +26,10 @@
         var item_list = [];
         var item_rendered = [];
         var contest_template_html = $(contest_template).html();
+        console.log(contest_template_html);
         Mustache.parse(contest_template_html);   // optional, speeds up future uses
     
-        console.log(contest_template);
+        
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
                 $.each( val.images, function( key, image ) { 
