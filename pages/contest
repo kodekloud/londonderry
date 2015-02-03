@@ -56,7 +56,7 @@
                 <div class="col-xs-12 checkbox-subscribe">          
                     <label for="mall_info">
                         <input class="" id="mall_info" type="checkbox" name="contest[newsletter]" />
-                        Subscribe to STC Newsletter
+                        Subscribe to Londonderry Newsletter
                     </label>
                 </div> 
             
