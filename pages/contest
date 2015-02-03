@@ -78,15 +78,6 @@
                 });
             }
         });
-       
-       
-        // $.each( item_list , function( key, val ) {
-        //   console.log(val);
-        //     var repo_rendered = Mustache.render(contest_template_html,val);
-        //     item_rendered.push(repo_rendered);
-        // });
-      
-       
         $(contest_image).show();
         $(contest_image).html(item_rendered.join(''));
     }
