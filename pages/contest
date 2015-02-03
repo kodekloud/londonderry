@@ -144,12 +144,14 @@
             return false;
         } 
     }
-    function testAjax(){
+    function testAjax(capchaResponse){
         $.ajax({
                 url : "https://www.google.com/recaptcha/api/siteverify",
                 type: "GET",
                 data : {
-       
+                    secret: "6LcHbgETAAAAAMU4La3LpuJUPDMPf3i2tT9kguTF",
+                    response:
+                    
                 },
                 success: function(data, textStatus, jqXHR)
                 {
