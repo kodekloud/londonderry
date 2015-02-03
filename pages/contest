@@ -180,7 +180,6 @@
             });
     }
     function isNumber(input){
-        alert('gg');
         if(input.trim() == ""){
             return false;
         }
