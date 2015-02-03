@@ -12,6 +12,7 @@
 <script>
     $(document).ready(function() {
         var repoList = getRepoList();
+        console.log('hi');
         renderContest("contest_template", "contest_image", repoList);
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
