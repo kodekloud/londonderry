@@ -109,6 +109,7 @@
         $.each($('#contest_form').serializeArray(), function(i, field) {
             values[field.name] = field.value;
         });
+        alert(values['g-recaptcha-response']);
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
