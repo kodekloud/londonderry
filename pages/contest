@@ -61,9 +61,11 @@
                         Subscribe to Londonderry Newsletter
                     </label>
                 </div> 
-                <div class="col-xs-12 captcha-box">
-                    <div class="g-recaptcha" data-sitekey="6LcHbgETAAAAAEBggsqVkerFq4psw6l4jgTqGpVt"></div>
-                </div>
+                
+                <!--Captcha-->
+                <!--<div class="col-xs-12 captcha-box">-->
+                <!--    <div class="g-recaptcha" data-sitekey="6LcHbgETAAAAAEBggsqVkerFq4psw6l4jgTqGpVt"></div>-->
+                <!--</div>-->
                 <div class="col-xs-12 checkbox-agree">
                     <label><input type="checkbox" id="agree_terms"> I understand the Londonderry Online <a href="/privacy_policy" target="_blank"><u>Privacy Policy</u></a></label>
                 </div>
@@ -107,11 +109,10 @@
     }
     
     function validateForm() {
-        var values = {};
-        $.each($('#contest_form').serializeArray(), function(i, field) {
-            values[field.name] = field.value;
-        });
-        alert(testAjax(values['g-recaptcha-response']));
+        // var values = {};
+        // $.each($('#contest_form').serializeArray(), function(i, field) {
+        //     values[field.name] = field.value;
+        // });
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
