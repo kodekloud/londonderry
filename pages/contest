@@ -36,16 +36,16 @@
                     <label for="phone">Phone Number</label>
                     <input type="text" id="phone" class="form-control" name="contest[phone]" value=""/>
                 </div>
-                <div class="form-group col-xs-3">
+                <div class="form-group col-md-3">
                     <label for="postal_code">Postal Code</label>
                     <input type="text" class="form-control" id="postal_code" name="contest[postal_code]" value=""/>
                 </div>
-                <div class="form-group col-xs-3">
+                <div class="form-group col-xs-1">
                     <label for="age">Age</label>
                     <input type="text" id="age" class="form-control" name="contest[age]"  value=""/>
                 </div>
                    
-                <div class="form-group col-xs-3">
+                <div class="form-group col-xs-1">
                     <label for="gender">Gender</label>
                     <select id="gender" class="form-control" name="contest[gender]">
                         <option value="">Choose</option>
