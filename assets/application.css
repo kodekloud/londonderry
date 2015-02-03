@@ -1016,6 +1016,13 @@ margin:0 auto;
         font-size:17px;
     }
     
+    .checkbox-subscribe{
+        margin-top:5px;  
+        margin-bottom:5px;
+    }
+    
+    
+    
     .contest-submit-btn{
         text-align: center;
     }
