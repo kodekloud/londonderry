@@ -129,8 +129,8 @@
             alert("Please Enter Postal Code");
             $("#postal_code").focus();
             return false;
-        } else if ($("#age").val() == ""){
-            alert("Please Enter Age");
+        } else if (!isNumber($("#age").val())){
+            alert("Please Enter Valide Age");
             $("#age").focus();
             return false;
         } else if ($("#agree_terms").prop("checked") != true){
@@ -138,6 +138,10 @@
             $("#agree_terms").focus();
             return false;
         } 
+    }
+    function isNumber(age){
+        var re = age.isNaN();
+        return re;
     }
     function isValidEmailAddress(email) { 
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
