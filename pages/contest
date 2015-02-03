@@ -159,11 +159,11 @@
                 },
                 success: function(data, textStatus, jqXHR)
                 {
-                    
+                    return 'yesss';
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
-                    
+                    return "nooo";
                 }
             });
     }
