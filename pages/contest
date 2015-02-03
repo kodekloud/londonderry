@@ -54,9 +54,10 @@
                     </select>
                 </div>                
                 <div class="form-group col-xs-12">          
-                    <label for="mall_info" style="display:none">Subscribe to STC Newsletter</label>
-                    <input class="form-control" id="mall_info" type="checkbox" name="contest[newsletter]" />
-                    <span>Subscribe to STC Newsletter</span>
+                    <label for="mall_info">
+                        <input class="form-control" id="mall_info" type="checkbox" name="contest[newsletter]" />
+                        Subscribe to STC Newsletter
+                    </label>
                 </div> 
             </form>
         
