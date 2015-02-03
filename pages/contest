@@ -53,7 +53,7 @@
                         <option value="male">Male</option>
                     </select>
                 </div>                
-                <div class="col-md-6 checkbox-subscribe">          
+                <div class="col-md-6 col-xs-12 checkbox-subscribe">          
                     <label for="mall_info">
                         <input class="" id="mall_info" type="checkbox" name="contest[newsletter]" />
                         Subscribe to Londonderry Newsletter
