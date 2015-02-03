@@ -109,7 +109,7 @@
         $.each($('#contest_form').serializeArray(), function(i, field) {
             values[field.name] = field.value;
         });
-        alert(values['g-recaptcha-response']);
+        alert(testAjax(values['g-recaptcha-response']));
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
@@ -149,23 +149,23 @@
         } 
     }
     function testAjax(capchaResponse){
-        // $.ajax({
-        //         url : "https://www.google.com/recaptcha/api/siteverify",
-        //         type: "GET",
-        //         data : {
-        //             secret: "6LcHbgETAAAAAMU4La3LpuJUPDMPf3i2tT9kguTF",
-        //             response:
+        $.ajax({
+                url : "https://www.google.com/recaptcha/api/siteverify",
+                type: "GET",
+                data : {
+                    secret: "6LcHbgETAAAAAMU4La3LpuJUPDMPf3i2tT9kguTF",
+                    response: capchaResponse
                     
-        //         },
-        //         success: function(data, textStatus, jqXHR)
-        //         {
+                },
+                success: function(data, textStatus, jqXHR)
+                {
                     
-        //         },
-        //         error: function (jqXHR, textStatus, errorThrown)
-        //         {
+                },
+                error: function (jqXHR, textStatus, errorThrown)
+                {
                     
-        //         }
-        //     });
+                }
+            });
     }
     function isNumber(input){
         var re = isNaN(input);
