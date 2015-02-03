@@ -17,7 +17,7 @@
             <p><em>Apple is not a sponsor nor is involved in any way. Contest/Sweepstake prizes are not Apple products, using Apple products.</em><br></p>
         
         </div> 
-        <hr />
+        <hr class="break-line"/>
            <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
             
                 <div class="form-group col-xs-6">
