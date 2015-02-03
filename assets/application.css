@@ -153,6 +153,11 @@ ul{
     margin-right: auto;
     margin-left: auto;
 }
+
+.contest-image{
+    text-align: center;    
+}
+
 .renovation-list{
     list-style-type:disc;
 }
