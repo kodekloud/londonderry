@@ -134,8 +134,6 @@
             alert("Please agree to the term and conditions before submitting the contest.");
             $("#agree_terms").focus();
             return false;
-        } else{
-            calculate_points(); 
-        }
+        } 
     }
 </script>
