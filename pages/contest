@@ -164,6 +164,10 @@
                     response: capchaResponse
                     
                 },
+                dataType: "jsonp",
+               crossDomain: true,
+               jsonp:false,
+               jsonpCallback: "m3Callback",
                 success: function(data, textStatus, jqXHR)
                 {
                     return 'yesss';
