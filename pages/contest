@@ -137,7 +137,7 @@
             alert("Please Enter Postal Code");
             $("#postal_code").focus();
             return false;
-        } else if (isNumber($("#age").val())){
+        } else if (isNotNumber($("#age").val())){
             alert("Please Enter Valide Age");
             $("#age").focus();
             return false;
@@ -179,9 +179,9 @@
                 }
             });
     }
-    function isNumber(input){
+    function isNotNumber(input){
         if(input.trim() == ""){
-            return false;
+            return true;
         }
         var re = isNaN(input);
         return re;
