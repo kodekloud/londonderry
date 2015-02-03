@@ -35,7 +35,6 @@
                     console.log(obj);
                     console.log('2222');
                     var repo_rendered = Mustache.render(contest_template_html,obj);
-                    console.log(repo_rendered);
                     item_rendered.push(repo_rendered);
                 });
               
