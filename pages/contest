@@ -57,7 +57,7 @@
                 </div>                
                 <div class="col-md-6 col-xs-12 checkbox-subscribe">          
                     <label for="mall_info">
-                        <input class="" id="mall_info" type="checkbox" name="" />
+                        <input class="" id="mall_info" type="checkbox" name="cm-ol-ykbo" />
                         Subscribe to Londonderry Newsletter
                     </label>
                 </div> 
