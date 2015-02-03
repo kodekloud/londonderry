@@ -29,6 +29,7 @@
         Mustache.parse(contest_template_html);   // optional, speeds up future uses
     
         $.each( repo , function( key, val ) {
+            console.log(val);
             if( val.name == "contest"){
                 $.each( val , function( key, val ) {  
                     console.log(val);
