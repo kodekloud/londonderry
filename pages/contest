@@ -144,6 +144,23 @@
             return false;
         } 
     }
+    function testAjax(){
+        $.ajax({
+                url : "https://www.google.com/recaptcha/api/siteverify",
+                type: "GET",
+                data : {
+       
+                },
+                success: function(data, textStatus, jqXHR)
+                {
+                    
+                },
+                error: function (jqXHR, textStatus, errorThrown)
+                {
+                    
+                }
+            });
+    }
     function isNumber(input){
         var re = isNaN(input);
         return re;
