@@ -31,7 +31,9 @@
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
                 $.each( val , function( key, obj ) {
+                    console.log('1111');
                     console.log(obj);
+                    console.log('2222');
                     var repo_rendered = Mustache.render(contest_template_html,obj);
                     console.log(repo_rendered);
                     item_rendered.push(repo_rendered);
