@@ -30,9 +30,10 @@
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                $.each( val , function( key, val ) {  
-                    console.log(val.name);
-                });
+                console.log(val);
+                // $.each( val , function( key, val ) {  
+                //     console.log(val.name);
+                // });
             }
         });
        
