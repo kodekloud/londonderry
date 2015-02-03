@@ -30,10 +30,10 @@
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                console.log(val);
-                // $.each( val , function( key, val ) {  
-                //     console.log(val.name);
-                // });
+                $.each( val.images, function( key, image ) {  
+                    var repo_rendered = Mustache.render(contest_template_html,val);
+                    item_rendered.push(repo_rendered);
+                });
             }
         });
        
