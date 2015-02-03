@@ -100,4 +100,42 @@
         $(contest_image).show();
         $(contest_image).html(item_rendered.join(''));
     }
+    
+    function validateForm() {
+        if ($("#first_name").val() == ""){
+            alert("Please Enter First Name");
+            $("#first_name").focus();
+            return false;
+        } else if ($("#last_name").val() == ""){
+            alert("Please Enter Last Name");
+            $("#last_name").focus();
+            return false;
+        } else if ($("#email").val() == ""){
+            alert("Please Enter Email");
+            $("#email").focus();
+            return false;
+        } else if(!isValidEmailAddress($("#email").val())){
+            alert("Please Enter a valid email address");
+            $("#email").focus();
+            return false;
+        } else if ($("#phone").val() == ""){
+            alert("Please Enter Phone Number");
+            $("#phone").focus();
+            return false;
+        } else if ($("#postal_code").val() == ""){
+            alert("Please Enter Postal Code");
+            $("#postal_code").focus();
+            return false;
+        } else if ($("#age").val() == ""){
+            alert("Please Enter Age");
+            $("#age").focus();
+            return false;
+        } else if ($("#agree_terms").prop("checked") != true){
+            alert("Please agree to the term and conditions before submitting the contest.");
+            $("#agree_terms").focus();
+            return false;
+        } else{
+            calculate_points(); 
+        }
+    }
 </script>
