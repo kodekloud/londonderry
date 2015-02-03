@@ -6,13 +6,8 @@
                     <img alt="..." src="{{photo_url_abs}}">
                 </script>
             </div>
-            <form accept-charset="UTF-8" action="/contest_entries" onsubmit="return validateForm()" enctype="multipart/form-data" id="contest_form" method="post">
+            <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
             
-                <label for="propert_id" style="display:none">Property ID</label>
-                <input id="propert_id" name="contest[property_id]" style="display:none" value="{{site.property.id}}" />
-                <label for="contest_id" style="display:none">Contest ID</label>
-                <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{contest.id}}" />
-                <div class="row-fluid">
                     <div class="col-xs-6">
                         <label for="first_name">First Name</label>
                         <input type="text" id="first_name" class="" name="" value="" />
@@ -21,8 +16,6 @@
                         <label for="last_name">Last Name</label>
                         <input type="text" id="last_name" class="" name="" value=""/>
                     </div>
-                </div>
-                <div class="row-fluid">
                     <div class="col-xs-6">
                         <label for="email">Email</label>
                         <input type="text" id="email" class="form_entry" name="contest[email]" value=""/>
@@ -31,9 +24,6 @@
                         <label for="phone">Phone Number</label>
                         <input type="text" id="phone" class="form_entry" name="contest[phone]" value=""/>
                     </div>
-                </div>
-
-                <div class="row-fluid">
                     <div class="col-xs-3">
                         <label for="postal_code">Postal Code</label>
                         <input type="text" id="postal_code" name="contest[postal_code]" value=""/>
@@ -51,7 +41,6 @@
                             <option value="male">Male</option>
                         </select>
                     </div>                
-                </div>
                 <div class="">          
                     <label for="mall_info" style="display:none">Subscribe to STC Newsletter</label>
                     <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]" />
