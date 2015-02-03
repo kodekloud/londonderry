@@ -1015,10 +1015,16 @@ margin:0 auto;
     body{
         font-size:17px;
     }
+    
+    .contest-submit-btn{
+        text-align: center;
+    }
+    
     .description p{
         overflow:visible;
         height:auto;
     }
+    
     .popup-header{
         z-index:100;
         position:absolute;    
