@@ -35,7 +35,7 @@
                    
                 <div class="form-group col-xs-6">
                     <label for="gender">Gender</label>
-                    <select id="gender" name="contest[gender]">
+                    <select id="gender" class="form-control" name="contest[gender]">
                         <option value="">Choose</option>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
