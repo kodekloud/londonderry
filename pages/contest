@@ -129,7 +129,7 @@
             alert("Please Enter Postal Code");
             $("#postal_code").focus();
             return false;
-        } else if (!isNumber($("#age").val())){
+        } else if (isNumber($("#age").val())){
             alert("Please Enter Valide Age");
             $("#age").focus();
             return false;
