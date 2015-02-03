@@ -15,48 +15,40 @@
                 <div class="row-fluid">
                     <div class="span6">
                         <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" class="form_entry" name="contest[first_name]" value="{{ session_data['first_name'] }}" />
+                        <input type="text" id="first_name" class="" name="" value="" />
                     </div>
                     <div class="span6">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" class="form_entry" name="contest[last_name]" value="{{ session_data['last_name'] }}"/>
+                        <input type="text" id="last_name" class="" name="" value=""/>
                     </div>
                 </div>
                 <div class="row-fluid">
                     <div class="span6">
                         <label for="email">Email</label>
-                        <input type="text" id="email" class="form_entry" name="contest[email]" value="{{ session_data['email'] }}"/>
+                        <input type="text" id="email" class="form_entry" name="contest[email]" value=""/>
                     </div>
                     <div class="span6">
                         <label for="phone">Phone Number</label>
-                        <input type="text" id="phone" class="form_entry" name="contest[phone]" value="{{ session_data['phone'] }}"/>
+                        <input type="text" id="phone" class="form_entry" name="contest[phone]" value=""/>
                     </div>
                 </div>
 
                 <div class="row-fluid">
                     <div class="span3">
                         <label for="postal_code">Postal Code</label>
-                        <input type="text" id="postal_code" name="contest[postal_code]" value="{{ session_data['postal_code'] }}"/>
+                        <input type="text" id="postal_code" name="contest[postal_code]" value=""/>
                     </div>
                     <div class="span3">
                         <label for="age">Age</label>
-                        <input type="text" id="age" name="contest[age]"  value="{{ session_data['age'] }}"/>
+                        <input type="text" id="age" name="contest[age]"  value=""/>
                     </div>
                        
                     <div class="span6">
                         <label for="gender">Gender</label>
                         <select id="gender" name="contest[gender]">
                             <option value="">Choose</option>
-                            {% if session_data['gender'] == 'female' %}
-                                <option value="female" selected>Female</option>
-                            {% else %}
-                                <option value="female">Female</option>
-                            {% endif %}
-                            {% if session_data['gender'] == 'male' %}
-                                <option value="male" selected>Male</option>
-                            {% else %}
-                                <option value="male">Male</option>
-                            {% endif %}
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
                         </select>
                     </div>                
                 </div>
