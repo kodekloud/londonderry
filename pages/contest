@@ -180,6 +180,9 @@
             });
     }
     function isNumber(input){
+        if(input.trim() == ""){
+            return false;
+        }
         var re = isNaN(input);
         return re;
     }
