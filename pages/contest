@@ -60,9 +60,9 @@
                     </label>
                 </div> 
             </form>
-            
-            <label><input type="checkbox" id="agree_terms"> I understand the Scarborough Town Center Online <a href="/pages/stc-privacy-policy" target="_blank"><u>Privacy Policy</u></a></label>
-        
+            <div class="col-xs-12">
+                <label><input type="checkbox" id="agree_terms"> I understand the Scarborough Town Center Online <a href="/pages/stc-privacy-policy" target="_blank"><u>Privacy Policy</u></a></label>
+            </div>
     </div>
 </div>
 <script>
