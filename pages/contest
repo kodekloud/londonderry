@@ -103,8 +103,6 @@
     }
     
     function validateForm() {
-        alert(isNumber($("#age").val()));
-        return false;
         if ($("#first_name").val() == ""){
             alert("Please Enter First Name");
             $("#first_name").focus();
