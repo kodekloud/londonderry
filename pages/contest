@@ -19,7 +19,7 @@
         </div> 
        
            <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
-            
+                
                 <div class="form-group col-md-6">
                     <label for="first_name">First Name</label>
                     <input type="text" id="first_name" class="form-control" name="" value="" />
@@ -59,7 +59,7 @@
                         Subscribe to Londonderry Newsletter
                     </label>
                 </div> 
-            
+                <div class="g-recaptcha" data-sitekey="6LcHbgETAAAAAEBggsqVkerFq4psw6l4jgTqGpVt"></div>
                 <div class="col-xs-12 checkbox-agree">
                     <label><input type="checkbox" id="agree_terms"> I understand the Londonderry Online <a href="/privacy_policy" target="_blank"><u>Privacy Policy</u></a></label>
                 </div>
