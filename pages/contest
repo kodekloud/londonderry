@@ -133,6 +133,10 @@
             alert("Please Enter Valide Age");
             $("#age").focus();
             return false;
+        } else if($("#gender").val() == "Choose"){
+            alert("Please Choose Gender");
+            $("#gender").focus();
+            return false;    
         } else if ($("#agree_terms").prop("checked") != true){
             alert("Please agree to the term and conditions before submitting the contest.");
             $("#agree_terms").focus();
