@@ -7,9 +7,11 @@
                 </script>
             </div>
         </div>
+        <div class="col-xs-12">
             <p><em>One entry per person.</em></p>
             <p><em>Apple is not a sponsor nor is involved in any way. Contest/Sweepstake prizes are not Apple products, using Apple products.</em><br></p>
-            <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
+        </div> 
+           <form accept-charset="UTF-8" action="" onsubmit="return validateForm()" id="contest_form" method="post">
             
                 <div class="form-group col-xs-6">
                     <label for="first_name">First Name</label>
