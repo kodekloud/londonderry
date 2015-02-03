@@ -164,12 +164,9 @@ ul{
     border: 1px solid #000000;
 }
 
-.checkbox-subscribe{
-    margin-top:20px;
-    margin-bottom:20px;
-}
 
 .captcha-box{
+    margin-top: 20px;
     margin-bottom:20px;
 }
 
