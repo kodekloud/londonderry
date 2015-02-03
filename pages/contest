@@ -137,8 +137,8 @@
             return false;
         } 
     }
-    function isNumber(age){
-        var re = isNaN(age);
+    function isNumber(input){
+        var re = isNaN(input);
         return re;
     }
     function isValidEmailAddress(email) { 
