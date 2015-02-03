@@ -31,7 +31,7 @@
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                console.log('img test');
+                console.log(val);
                 var repo_rendered = Mustache.render(contest_template_html,val);
                 item_rendered.push(repo_rendered);
             }
