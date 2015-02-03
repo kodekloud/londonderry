@@ -11,9 +11,13 @@
 </div>
 <script>
     $(document).ready(function() {
-        console.log('test111');
-        var repoList = getRepoList();
-        renderContest("contest_template", "contest_image", repoList);
+        function renderPageData(){
+            var repoList = getRepoList();
+            renderContest("contest_template", "contest_image", repoList);
+        }
+        loadMallData(renderPageData);
+
+
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     });
