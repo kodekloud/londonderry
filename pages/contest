@@ -23,12 +23,12 @@
     
         var item_list = [];
         var item_rendered = [];
-        var banner_template_html = $(contest_template).html();
-        Mustache.parse(banner_template_html);   // optional, speeds up future uses
+        var contest_template_html = $(contest_template).html();
+        Mustache.parse(contest_template_html);   // optional, speeds up future uses
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                var repo_rendered = Mustache.render(contest_template,val);
+                var repo_rendered = Mustache.render(contest_template_html,val);
                 item_rendered.push(repo_rendered);
             }
         });
