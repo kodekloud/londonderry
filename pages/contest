@@ -30,7 +30,7 @@
     
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
-                console.log(val);
+                console.log(val.photo_url_abs);
                 var repo_rendered = Mustache.render(contest_template_html,val);
                 console.log(repo_rendered);
                 item_rendered.push(repo_rendered);
