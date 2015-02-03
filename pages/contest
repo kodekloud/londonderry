@@ -13,7 +13,7 @@
     $(document).ready(function() {
         function renderPageData(){
             var repoList = getRepoList();
-            renderContest("contest_template", "contest_image", repoList);
+            renderContest("#contest_template", "#contest_image", repoList);
         }
         loadMallData(renderPageData);
 
@@ -26,16 +26,13 @@
         var item_list = [];
         var item_rendered = [];
         var contest_template_html = $(contest_template).html();
-        console.log(contest_template_html);
         Mustache.parse(contest_template_html);   // optional, speeds up future uses
     
         
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
                 $.each( val.images, function( key, image ) { 
-                    
                     var repo_rendered = Mustache.render(contest_template_html,image);
-                   // console.log(repo_rendered);
                     item_rendered.push(repo_rendered);
                 });
             }
