@@ -28,12 +28,13 @@
         var contest_template_html = $(contest_template).html();
         Mustache.parse(contest_template_html);   // optional, speeds up future uses
     
+        console.log(contest_template_html);
         $.each( repo , function( key, val ) {
             if( val.name == "contest"){
                 $.each( val.images, function( key, image ) { 
                     
                     var repo_rendered = Mustache.render(contest_template_html,image);
-                    console.log(repo_rendered);
+                   // console.log(repo_rendered);
                     item_rendered.push(repo_rendered);
                 });
             }
