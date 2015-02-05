@@ -69,7 +69,7 @@
                 <!--    <div class="g-recaptcha" data-sitekey="6LcHbgETAAAAAEBggsqVkerFq4psw6l4jgTqGpVt"></div>-->
                 <!--</div>-->
                 <div class="col-xs-12 checkbox-agree">
-                    <label><input type="checkbox" id="agree_terms"> I understand the Londonderry Online <a href="/privacy_policy">Privacy Policy </a>and agree to the <a href="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/070bb573d4122b9c09045100c36e2cc8/Valentine%27s%20Day%20Rules%20&%20Regulations.docx" target="_blank">Contest Rules and Regulations</a></label>
+                    <label><input type="checkbox" id="agree_terms"> I understand the Londonderry Online <a href="/privacy_policy">Privacy Policy </a>and agree to the <a href="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/070bb573d4122b9c09045100c36e2cc8/Valentine%27s%20Day%20Rules%20&%20Regulations.docx" target="_blank"> Rules and Regulations</a></label>
                 </div>
                 <div class="col-xs-12 contest-submit-btn">
                     <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:325px; height: 45px;">
