@@ -386,7 +386,7 @@ img{
     padding-top:15px;
     text-transform: uppercase;
 }
-.promotion-details .name{
+.promotion-details .name h3{
     font-size: 1em;
 }
 .search-results .name{
