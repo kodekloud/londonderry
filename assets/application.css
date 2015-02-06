@@ -817,6 +817,11 @@ padding-top: 5px;
     color:#000;
 }
 
+.blog-author{
+    color: #7777777;
+    font-weight:normal;
+}
+
 .promo-details .description{
     padding-top:5px;
 }
