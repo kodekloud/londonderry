@@ -11,7 +11,9 @@
     font-family: OpenSans;
     src: url('http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/d0fd621cb5ecfedb8a88bb62ec38701f/OpenSans-Regular.ttf');
 }
-
+body{
+    line-height: 20px;
+}
 #zControls {
     position: relative;
     z-index: 1;
