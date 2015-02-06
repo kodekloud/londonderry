@@ -541,7 +541,12 @@ img{
     color:#D0D0D0;
     text-transform: uppercase;
 }
-
+.news-letter-sign-up .checkbox {
+    margin-bottom: 10px;
+    margin-left: 34px;
+    text-align: left;
+    width: 220px;
+}
 
 .page_content{
     min-height:600px;
