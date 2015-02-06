@@ -386,7 +386,9 @@ img{
     padding-top:15px;
     text-transform: uppercase;
 }
-
+.promotion-details .name{
+    font-size: 1em;
+}
 .search-results .name{
     color:#FFF;
     font-size:15px;
