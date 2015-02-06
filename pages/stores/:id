@@ -90,7 +90,7 @@ background-color: #FFFFFF ;
                             <div class="promo-store-name">
                                 <h4><a href="{{ promo_store_url }}">{{ promo_store_name }}</a></h4>
                             </div>
-                            <div class="promo-dates">
+                            <div class="dates">
                                 {{ start_date }} to {{ end_date }}
                             </div>
                             <div class="description">
