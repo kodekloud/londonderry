@@ -578,7 +578,9 @@ footer .nav>li>a{
     margin-top:none;
 }
 
-
+.signature-item{
+    font-size:10px;
+}
 
 .feature-item .holiday-hours{
     margin-top:20px;
