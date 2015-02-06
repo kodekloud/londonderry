@@ -27,7 +27,9 @@
    fill:   #66FFFF;
 }
      
-   
+.bold{
+    font-weight: bold;
+}  
      
 #pop-over{
     position:absolute;
