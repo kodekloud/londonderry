@@ -15,9 +15,9 @@
     }
 
     .bottom-nav .navbar-collapse{
-        -moz-box-shadow: 0;
-        -webkit-box-shadow: 0;
-        box-shadow: 0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
     }
 </style>
 <div class="home">
