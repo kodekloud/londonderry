@@ -817,7 +817,8 @@ padding-top: 5px;
 }
 
 .promo-details .dates{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
     color:#000;
 }
 
