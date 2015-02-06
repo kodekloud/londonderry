@@ -386,9 +386,7 @@ img{
     padding-top:15px;
     text-transform: uppercase;
 }
-.promotion-details .name h3{
-    font-size: 1em;
-}
+
 .search-results .name{
     color:#FFF;
     font-size:15px;
@@ -809,7 +807,7 @@ padding-top: 5px;
 }
 
 .promo-details .name a{
-    font-size: 1.333em;
+    font-size: 1.0em;
     color:#000;
 }
 
