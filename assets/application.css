@@ -530,6 +530,10 @@ img{
     text-transform: uppercase;
 }
 
+.bottom-nav nav{
+    margin-top: 5px;
+}
+
 .navbar-default .navbar-nav>li>a:hover{
     color:#D0D0D0;
     text-transform: uppercase;
