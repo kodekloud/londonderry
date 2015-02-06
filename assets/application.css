@@ -548,7 +548,9 @@ img{
     width: 220px;
     line-height: 1;
 }
-
+.info_check{
+    margin-top:2px;
+}
 .page_content{
     min-height:600px;
     padding-bottom:30px;
