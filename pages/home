@@ -68,7 +68,7 @@
                     <script id="holiday_hours_template" type="x-tmpl-mustache">
                         
                         <li class="">
-                            <span class="">{{holiday_name}}</span>
+                            <span class="bold">{{holiday_name}}</span>
                             <div style="{{is_open_css}};">
                                 {{open_time_localized}} - {{close_time_localized}}
                             </div>
