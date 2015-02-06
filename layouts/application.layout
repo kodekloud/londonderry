@@ -439,7 +439,16 @@
                         <a href="../promotions">PROMOTIONS</a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../events">EVENTS/NEWS</a>
+                        <a href="/events" >Events</a>
+                        <ul class="under-nav" style="">
+                            <li>
+                                <a href="/events">Events</a>
+                            </li>
+                            <li>
+                                <a href="/contest">Contest</a>
+                            </li>
+                            
+                        </ul>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="/services" >Services</a>
