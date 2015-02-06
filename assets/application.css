@@ -1085,7 +1085,8 @@ margin:0 auto;
     
     
     .map_content{
-        border: 1px solid;
+        border: 1px solid black;
+        padding: 15px;
     }
     .anchor{
       display: block;
