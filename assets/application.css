@@ -32,7 +32,10 @@ body{
 .bold{
     font-weight: bold;
 }  
-     
+   
+.regular{
+    font-weight:normal;
+}  
 #pop-over{
     position:absolute;
     min-height:60px;
@@ -821,6 +824,7 @@ padding-top: 5px;
     color: #777777;
     font-weight:normal;
 }
+
 
 .promo-details .description{
     padding-top:5px;
