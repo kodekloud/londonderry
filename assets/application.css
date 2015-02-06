@@ -1171,6 +1171,10 @@ margin:0 auto;
         padding-left:22px;
         padding-right:22px;
     }
+    .bottom-nav .navbar-nav > li{
+        padding-left: 30px;
+        padding-right: 30px;  
+    }
     .home .banner{
         width:100%;
         padding-left:150px;
