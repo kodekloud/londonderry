@@ -830,6 +830,11 @@ padding-top: 5px;
     color:#000;
 }
 
+.map_content{
+    padding: 15px;
+    border: 1px solid black; 
+}
+
 .blog-author{
     color: #777777;
     font-weight:normal;
