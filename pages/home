@@ -8,7 +8,12 @@
     #loading{
         margin-top:100px;
     }
-    
+    .bottom-nav{
+        -moz-box-shadow:    inset 0 10px 10px -10px #777777;
+       -webkit-box-shadow: inset 0 10px 10px -10px #777777;
+       box-shadow:         inset 0 10px 10px -10px #777777;
+    }
+
 </style>
 <div class="home">
         <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
