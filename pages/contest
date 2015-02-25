@@ -74,6 +74,7 @@
                 <div class="col-xs-12 contest-submit-btn">
                     <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:325px; height: 45px;">
                 </div>
+                <br>
             </form>
 
     </div>
