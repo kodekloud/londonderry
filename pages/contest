@@ -162,7 +162,7 @@
             console.log(visited);
             $.cookie('visited_contest', 100, { expires: 7 }); 
       
-            return true;
+            return false;
         }
     }
     function testAjax(capchaResponse){
