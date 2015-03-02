@@ -188,7 +188,7 @@
                <p onclick="close_popup();" class="popup-close pull-right">X</p>
             </div>
             <div class="popup-body">
-                <a href="/events">
+                <a href="/contest">
                     <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/2bdd35c9fa61d8b99256928671be5425/DT-ETW-popup.jpg" class="" alt="">
                 </a>
             </div>
