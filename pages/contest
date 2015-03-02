@@ -159,6 +159,7 @@
             $("#gender-hidden").val($("#gender").val());
             
             var visited = $.cookie("visited_contest");
+            console.log(visited);
             $.cookie('visited_contest', 100, { expires: 7 }); 
       
             return true;
