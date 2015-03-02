@@ -7,7 +7,7 @@
     <div class="row ">
         <div class="renovation-container">
             <h2 style="margin-bottom:30px">Thank You</h2>
-            <h4>Thank you for your entry. Click <a href="/">here</a>  to return to the homepage.</h4>
+            <h4>Thank you for your entry.<br/> Click <a href="/">here</a>  to return to the homepage.</h4>
         </div> 
     </div>
 </div>
