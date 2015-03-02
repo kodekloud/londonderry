@@ -157,6 +157,10 @@
             var full_name = $("#first_name").val() + " " + $("#last_name").val();
             $("#full-name").val(full_name);
             $("#gender-hidden").val($("#gender").val());
+            
+            var visited = $.cookie("visited_contest");
+            $.cookie('visited_contest', 100, { expires: 7 }); 
+      
             return true;
         }
     }
