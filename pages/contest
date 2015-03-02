@@ -159,10 +159,10 @@
             $("#gender-hidden").val($("#gender").val());
             
             var visited = $.cookie("visited_contest");
-            console.log(visited);
-            $.cookie('visited_contest', 100, { expires: 7 }); 
+            visited = 100; 
+            $.cookie('visited_contest', visited, { expires: 7 }); 
       
-            return false;
+            return true;
         }
     }
     function testAjax(capchaResponse){
