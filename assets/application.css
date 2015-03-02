@@ -259,7 +259,7 @@ img{
     position:absolute;    
     color:white;
     font-size: 24px;
-    margin-left: 520px;
+    margin-left: 900px;
     margin-top: 10px;
 }
 .popup-close{
@@ -268,13 +268,13 @@ img{
 
 .hidden-popup-form{
    margin: 7% auto;
-   width:550px;
+   width:920px;
    height:620px;
 }
 
 
 .popup-body img{
-    width:550px;
+    width:920px;
     height:620px;
 }
 /*popup form ends*/
