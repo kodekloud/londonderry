@@ -6,3 +6,10 @@
 Click here (links to homepage) to return to the homepage.
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#loading').hide();
+        $('#page_content').fadeIn();
+    });
+</script>
