@@ -55,7 +55,7 @@ background-color: #FFFFFF ;
                 <div class="store_map" id="store_map">
                     <script id="store_deatils_map_template" type="x-tmpl-mustache">
                         <div class="demo1">
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/dbb7bedee8d402cadba86ac1aad31045/londonderrymap.jpg" class="imgMap" id="map_image" />                
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/365494cc1c6dded7608bd0f668cb2714/londonderrymap_2.png" class="imgMap" id="map_image" />                
                 	        <div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
             	        </div>   
                     </script>
