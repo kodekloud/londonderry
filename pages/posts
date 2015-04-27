@@ -35,7 +35,7 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        console.log(getPostList())
+        //console.log(getPostList())
         renderPostListTemplate('#blog_item_template', '#blog_list',getPostList());
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
