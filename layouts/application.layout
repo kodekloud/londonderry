@@ -427,6 +427,8 @@
     </div>
     <div class="bottom-nav hidden-phone">
         <div class="container">
+            <p style="text-align:center"><a target="_blank" href="https://secure.humanitariancoalition.ca/"><img src="http://cdn.mallmaverick.com/system/site_images/photos/000/008/859/original/banner_earhquake.jpg?1430232093" alt="help"></a></p>
+        
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">
                 <ul class="nav navbar-nav" style="">
                     <li class="hidden">
