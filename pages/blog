@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="blog_body">
+        <h1>Get the Look</h1>
+        <div id="blog_content">
+            <script id="blog_content_script" type="x-tmpl-mustache">
+                {{{html_body}}}
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+$(document).ready(function() {
+        
+        function renderPageData(){
+             renderPostListTemplate("#blog_content_script", "#blog_content", getBlogByName("Shop The Look")[0])
+            //renders the events list by referencing the template id and the html id
+            //for where to place the rendered content. See mallmaverick.js for implementation
+            $('#loading').hide();
+            $('#page_content').fadeIn('fast');
+            
+        }
+        
+        loadMallDataCached(renderPageData);
+    });
+    
+    function renderPostListTemplate(blog_template, blog_block, post){
+       var item_list = [];
+       var blog_template_html = $(blog_template).html();
+       Mustache.parse(blog_template_html);   // optional, speeds up future uses
+   
+      
+       var blog_rendered = Mustache.render(blog_template_html,post);
+       item_list.push(blog_rendered);
+     
+
+       $(blog_block).html(item_list.join(''));
+    }
+</script>    
