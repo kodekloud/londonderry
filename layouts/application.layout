@@ -307,7 +307,7 @@
                         <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="/blog">Get The Look</a>
+                                <a href="/blog" data-i18n="nav.look"></a>
                             </li>
                         </ul>
                     </li>
