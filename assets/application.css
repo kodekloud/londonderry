@@ -1186,6 +1186,25 @@ margin:0 auto;
         padding-left:2px;
         padding-right:2px;
     }
+    
+     ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;    
+    } 
+    .dropdown-menu {
+        left: 25px;
+        background-color: #000000;
+        color: #ffffff;
+        padding-bottom: 15px;
+    }  
+    
+    .dropdown-menu>li>a {
+       color: #ffffff;
+       text-transform: uppercase;
+    }
+    
+    .navbar-nav>li>.dropdown-menu {
+        margin-top: -1px;
+    }
 
 }
 
