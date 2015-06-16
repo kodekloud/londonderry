@@ -303,7 +303,7 @@
                         <a href="#page-top"></a>
                     </li>
                     
-                    <li class="page-scroll" style="">
+                    <li class="page-scroll dropdown" style="">
                         <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
                     </li>
                     
