@@ -307,6 +307,9 @@
                         <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
                     </li>
                     <li class="page-scroll" style="">
+                        <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
+                    </li>
+                    <li class="page-scroll" style="">
                         <a href="../promotions" data-i18n="nav.promotions"></a>
                     </li>
                     <li class="page-scroll" style="">
