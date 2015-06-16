@@ -447,7 +447,12 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../stores">STORES</a>
+                        <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
+                        <ul class="under-nav">
+                            <li>
+                                <a href="/blog">Get The Look</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../promotions">PROMOTIONS</a>
