@@ -373,13 +373,11 @@
                         <a href="../about_us#opening_hours"><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a>
                         
                     </li>
-                    <li class="page-scroll dropdown" style="">
+                    <li class="page-scroll" style="">
                         <a href="../stores" data-i18n="nav.stores"></a>
-                        <ul class="dropdown-menu">
-                            <li>
+                    </li>
+                     <li class="page-scroll" style="">
                                 <a href="/blog">Get The Look</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../promotions" data-i18n="nav.promotions"></a>
