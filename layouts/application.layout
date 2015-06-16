@@ -307,7 +307,7 @@
                         <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="/blog">Get The Look</a>
+                                <a href="/blog?v=1.0.1">Get The Look</a>
                             </li>
                         </ul>
                     </li>
@@ -377,7 +377,7 @@
                         <a href="../stores" data-i18n="nav.stores"></a>
                     </li>
                      <li class="page-scroll" style="">
-                                <a href="/blog">Get The Look</a>
+                                <a href="/blog?v=1.0.1">Get The Look</a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../promotions" data-i18n="nav.promotions"></a>
@@ -448,7 +448,7 @@
                         <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
                         <ul class="under-nav">
                             <li>
-                                <a href="/blog">Get The Look</a>
+                                <a href="/blog?v=1.0.1">Get The Look</a>
                             </li>
                         </ul>
                     </li>
