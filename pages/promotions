@@ -109,7 +109,7 @@
     $(document).ready(function() {
         
         function renderPageData(){
-            all_promos = getPromotionsList();
+            var all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
             promo_array = []
             $.each( all_promos , function( key, val ){
