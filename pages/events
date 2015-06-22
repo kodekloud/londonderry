@@ -96,7 +96,7 @@
                    events_array.push(val)
                } 
             });
-            renderEventsListTemplate('#event_item_template','#event_item_template_no_image','#events_list','#events_not_empty_section','#events_empty_section',events_array;
+            renderEventsListTemplate('#event_item_template','#event_item_template_no_image','#events_list','#events_not_empty_section','#events_empty_section',events_array);
             //$(document).i18n();
             //please see http://kylestetz.github.io/CLNDR/
             $('#clndr').clndr({
