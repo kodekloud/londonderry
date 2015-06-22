@@ -119,7 +119,7 @@
                    promo_array.push(val)
                } 
             });
-            renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section',promo_array;
+            renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section',promo_array);
             renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
