@@ -86,6 +86,16 @@
         function renderPageData(){
             //renders the events list by referencing the template id and the html id
             //for where to place the rendered content. See mallmaverick.js for implementation
+            var all_events = getPromotionsList();
+            all_promos = all_promos.reverse();
+            promo_array = []
+            $.each( all_promos , function( key, val ){
+               today = new Date();
+               webDate = new Date(val.show_on_web_date)
+               if (today >= webDate) {
+                   promo_array.push(val)
+               } 
+            });
             renderEventsListTemplate('#event_item_template','#event_item_template_no_image','#events_list','#events_not_empty_section','#events_empty_section',getEventsList());
             //$(document).i18n();
             //please see http://kylestetz.github.io/CLNDR/
