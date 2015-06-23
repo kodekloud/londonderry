@@ -128,7 +128,7 @@
                     visited = 1; 
                     $.cookie('visited_contest', visited, { expires: 7 }); 
                 }
-                if (visited < 0) {
+                if (visited < 3) {
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 700) {
                         $(".hidden-popup-bg").show();
                     }else{
@@ -188,8 +188,8 @@
                <p onclick="close_popup();" class="popup-close pull-right">X</p>
             </div>
             <div class="popup-body">
-                <a href="/contest">
-                    <img src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/2bdd35c9fa61d8b99256928671be5425/DT-ETW-popup.jpg" class="" alt="">
+                <a href="/events/londonderry-our-gift-to-you">
+                    <img src="http://assets.kodekloud.io/sites/5547c95a6e6f643495030000/0fd91d8a8c29171ff206ae2cd19332ee/rogers_v2.jpg" class="" alt="">
                 </a>
             </div>
        </div>
