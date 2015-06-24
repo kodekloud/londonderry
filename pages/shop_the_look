@@ -1,7 +1,23 @@
-
+<div class="container" id="blog_detail">  
+    <script id="blog_detail_template" type="x-tmpl-mustache">
+            <h1 class="blogpost_detail_header">BLOG</h1>
+            <a href="/posts" class="back_to">< Back to the list</a>
+        <h2 class="blogpost_detail_title">{{ title }}</h2>
+      
+        <p class="blogpost_date">{{ publish_date }} + {{ author }}</p>
+        <div class="blog_img_section">
+            <img class="blogpost_detail_img" src="{{image_url}}" />
+        </div>
+        <div class="blog_detail_description" style="float:left">
+        {{{ html_body }}}
+        </div>
+    </script>
+</div>
 <script>
     $(document).ready(function() {
         function renderPageData(){
+            var post = getBlogByName("Shop The Look");
+            
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
