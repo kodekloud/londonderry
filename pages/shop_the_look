@@ -3,12 +3,8 @@
             <h1 class="blogpost_detail_header">BLOG</h1>
             <a href="/posts" class="back_to">< Back to the list</a>
         <h2 class="blogpost_detail_title">{{ title }}</h2>
-      
-        <p class="blogpost_date">{{ publish_date }} + {{ author }}</p>
-        <div class="blog_img_section">
-            <img class="blogpost_detail_img" src="{{image_url}}" />
-        </div>
-        <div class="blog_detail_description" style="float:left">
+    
+        <div class="blog_detail_description">
         {{{ html_body }}}
         </div>
     </script>
