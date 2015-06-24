@@ -11,6 +11,7 @@
     $(document).ready(function() {
         function renderPageData(){
             var post = getBlogByName("Shop The Look");
+            console.log(post)
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail', post);
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
