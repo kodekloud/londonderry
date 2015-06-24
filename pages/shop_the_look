@@ -3,7 +3,7 @@
         <h1 class="blogpost_detail_header">BLOG</h1>
         <h2 class="blogpost_detail_title">{{ title }}</h2>
         <div class="blog_detail_description">
-        {{{ html_body }}}
+            {{{ html_body }}}
         </div>
     </script>
 </div>
