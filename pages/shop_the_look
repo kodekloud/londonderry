@@ -21,6 +21,7 @@
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
+        
         function renderPostDetailTemplate(blog_template, blog_block, post){
     
             var item_list = [];
