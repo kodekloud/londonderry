@@ -1,0 +1,6 @@
+<script>
+    $(document).ready(function() {
+        $('#loading').hide();
+        $('#page_content').fadeIn('fast');
+    });
+</script>
