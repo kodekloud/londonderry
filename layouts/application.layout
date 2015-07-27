@@ -134,7 +134,7 @@
                         
                         $(".hidden-popup-bg").show();
                     }else{
-                         console.log('in visited');
+                        
                          $(".hidden-popup-bg").show();
                     }
                     visited++;
