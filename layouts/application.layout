@@ -61,7 +61,7 @@
     <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
 
     <!-- flexslider for banner -->
-    <script src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/18e2e634c26a051a8eedcc896c229e80/jquery.flexslider-min.js"></script>
+    <script src="http://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/18e2e634c26a051a8eedcc896c229e80/jquery.flexslider-min.jshttp://kodekloud.s3.amazonaws.com/sites/54612c496e6f6474ba020000/18e2e634c26a051a8eedcc896c229e80/jquery.flexslider-min.js"></script>
     
     <!-- jquery Cookie plugin-->
    <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
@@ -120,7 +120,7 @@
             var slug = pathArray[pathArray.length-1];
             
             if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-                console.log('in if');
+              
                 var visited = $.cookie("visited_contest");
                 var winwidth = $(window).width();
                 
@@ -128,13 +128,10 @@
                     visited = 1; 
                     $.cookie('visited_contest', visited, { expires: 7 }); 
                 }
-               
                 if (visited == 0) {
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 700) {
-                        
                         $(".hidden-popup-bg").show();
                     }else{
-                        
                          $(".hidden-popup-bg").show();
                     }
                     visited++;
@@ -184,7 +181,10 @@
 </head>
 
 <body id="page-top" class="index" >
+   
+   
     <!-- popup html form starts-->
+    <!--
     <div class="hidden-popup-bg">
         <div class="hidden-popup-form">
             <div class="popup-header">
@@ -198,6 +198,7 @@
        </div>
 
     </div>
+    --!>
     <!-- popup form ends-->
     
     <!-- Navigation -->
