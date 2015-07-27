@@ -164,14 +164,14 @@
     
     
         setEndPoint('http://londonderry.mallmaverick.com/api/v2/londonderry/all.json');
-        sessionStorage.setItem('primary_locale', 'en-CA');
-        sessionStorage.setItem('secondary_locale', 'fr-CA');
+        // sessionStorage.setItem('primary_locale', 'en-CA');
+        // sessionStorage.setItem('secondary_locale', 'fr-CA');
         
-        if(getRequestParam('lang') == 'fr'){
-            sessionStorage.setItem('current_locale',sessionStorage.secondary_locale);
-        }else if(getRequestParam('lang') == 'en'){
-            sessionStorage.setItem('current_locale',sessionStorage.primary_locale);
-        }
+        // if(getRequestParam('lang') == 'fr'){
+        //     sessionStorage.setItem('current_locale',sessionStorage.secondary_locale);
+        // }else if(getRequestParam('lang') == 'en'){
+        //     sessionStorage.setItem('current_locale',sessionStorage.primary_locale);
+        // }
 
     </script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
