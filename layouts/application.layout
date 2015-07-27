@@ -120,7 +120,7 @@
             var slug = pathArray[pathArray.length-1];
             
             if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-              
+                console.log('in if');
                 var visited = $.cookie("visited_contest");
                 var winwidth = $(window).width();
                 
