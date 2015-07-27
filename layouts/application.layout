@@ -125,10 +125,10 @@
                 var winwidth = $(window).width();
                 
                 if(visited == null){ 
-                    visited = 0; 
+                    visited = 1; 
                     $.cookie('visited_contest', visited, { expires: 7 }); 
                 }
-                if (visited < 3) {
+                if (visited < 0) {
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 700) {
                         $(".hidden-popup-bg").show();
                     }else{
