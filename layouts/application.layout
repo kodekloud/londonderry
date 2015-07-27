@@ -125,7 +125,7 @@
                 var winwidth = $(window).width();
                 
                 if(visited == null){ 
-                    visited = 1; 
+                    visited = 0; 
                     $.cookie('visited_contest', visited, { expires: 7 }); 
                 }
                 if (visited < 3) {
