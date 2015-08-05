@@ -109,7 +109,17 @@
     $(document).ready(function() {
         
         function renderPageData(){
-            renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section',getPromotionsListByStoreName());
+            var all_promos = getPromotionsList();
+            all_promos = all_promos.reverse();
+            promo_array = []
+            $.each( all_promos , function( key, val ){
+               today = new Date();
+               webDate = new Date(val.show_on_web_date)
+               if (today >= webDate) {
+                   promo_array.push(val)
+               } 
+            });
+            renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', promo_array);
             renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
