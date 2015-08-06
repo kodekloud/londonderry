@@ -110,7 +110,7 @@
         
         function renderPageData(){
             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section',getPromotionsListByStoreName());
-            renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
+            // renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
             
             all_promos = getPromotionsList();
             stores_list = []
