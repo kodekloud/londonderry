@@ -122,7 +122,10 @@
                 } 
             });
             stores_list = $.unique(stores_list);
-            console.log(stores_list)
+            stores_array = []
+            $.each( stores_list , function( key, val ) {
+                console.log(val)
+            });
             
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
