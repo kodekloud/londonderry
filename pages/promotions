@@ -121,7 +121,7 @@
                      stores_list.push(val.promotionable_id)
                 } 
             });
-            
+            stores_list = $.unique(stores_list);
             console.log(stores_list)
             
             $('#loading').hide();
