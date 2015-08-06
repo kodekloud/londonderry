@@ -124,7 +124,7 @@
             stores_list = $.unique(stores_list);
             stores_array = []
             $.each( stores_list , function( key, val ) {
-                stores_array.push(getStoreDetailsByID(val);)
+                stores_array.push(getStoreDetailsByID(val))
             });
             
             renderList("#stores_with_promotions", "#store_item_template", stores_array)
