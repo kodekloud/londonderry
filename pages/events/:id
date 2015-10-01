@@ -18,7 +18,7 @@
                             {{ start_date }} to {{ end_date }}
                         </div>
                         <div class="event-description">
-                            {{ description }}
+                            {{ rich_description }}
                         </div>
                         <div class="social-links detail-social">
                             <span style="margin-right:10px;"><a href="http://www.facebook.com/sharer.php?u=http://londonderrymall.com/events/{{slug}}" target="_blank">
